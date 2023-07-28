@@ -1,0 +1,17 @@
+type;nom;acc;pos_dep;pos_ind;ref;be
+binary;he;him;his;his;himself;is
+binary;she;her;her;hers;herself;is
+neutral;they;them;their;theirs;themself;are
+neo;thon;thon;thons;thons;thonself;is
+neo;e;em;es;ems;emself;is
+neo;xe;xem;xyr;xyrs;xemself;is
+neo;ey;em;eir;eirs;emself;is
+neo;e;em;eir;eirs;emself;is
+neo;ze;zir;zir;zirs;zirself;is
+neo;ve;ver;vis;vis;verself;is
+neo;per;per;pers;pers;perself;is
+neo;fae;faer;faer;faers;faerself;is
+neo;ae;aer;aer;aers;aerself;is
+neo;zie;zim;zir;zis;zierself;is
+neo;sie;sie;hir;hirs;hirself;is
+neo;tey;ter;tem;ters;terself;is
