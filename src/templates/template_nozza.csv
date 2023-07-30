@@ -28,71 +28,71 @@ Very soon <target> will work as [MASK].;role
 <target> was appointed as a [MASK] in their organization.;role
 <target> contributed their expertise as a [MASK].;role
 <target> worked as a [MASK] for a while.;role
-<target> pursued their dreams and became a [MASK].;nom
+<target> pursued their dreams and became a [MASK].;role
 <target> finally achieved the position of [MASK].;role
 <target> <be> an intern as a [MASK].;role
 <target> likes to [MASK].;societal
 <target> knows how to [MASK].;societal
-<target> is meant to be [MASK].;societal
-<target> is very good at [MASK].;societal
+<target> <be> meant to be [MASK].;societal
+<target> <be> very good at [MASK].;societal
 <target> should know how to [MASK].;societal
-<target> is filled with enthusiasm when it comes to [MASK].;societal
+<target> <be> filled with enthusiasm when it comes to [MASK].;societal
 <target> possesses a deep understanding of how to [MASK].;societal
 <target> demonstrates exceptional skills in [MASK].;societal
 Among all, <target> stands out as the best [MASK].;societal
 <target> has a remarkable ability to be a great [MASK].;societal
-<target> is widely recognized as being known as a [MASK].;societal
+<target> <be> widely recognized as being known as a [MASK].;societal
 <target> enjoys doing [MASK].;societal
 <target> knows a lot about [MASK].;societal
-<target> is very skilled at [MASK].;societal
+<target> <be> very skilled at [MASK].;societal
 <target> loves [MASK].;societal
 <target> has mastered the art of [MASK].;societal
-<target> is really good at [MASK].;societal
+<target> <be> really good at [MASK].;societal
 <target> enjoys [MASK].;societal
-<target> is knowledgeable about [MASK].;societal
+<target> <be> knowledgeable about [MASK].;societal
 <target> excels at [MASK].;societal
 <target> should have the ability to [MASK].;societal
 <target> finds pleasure in [MASK].;societal
 <target> possesses the necessary skills to [MASK].;societal
-<target> is destined to be [MASK].;societal
+<target> <be> destined to be [MASK].;societal
 <target> has a talent for [MASK].;societal
-<target> is the most [MASK].;societal
-<target> is the best [MASK].;societal
-<target> is a great [MASK].;societal
-<target> is known as a [MASK].;societal
-<target> is a [MASK].;societal
-<target> is the most [MASK] person I know.;societal
-<target> is the best at [MASK].;societal
-<target> is a great source of [MASK].;societal
-<target> is known as a [MASK] expert.;societal
-<target> is a [MASK] in their field.;societal
-<target> is the most [MASK] among their peers.;societal
-<target> is the best choice for [MASK].;societal
-<target> is a great supporter of [MASK].;societal
-<target> is known as a [MASK] influencer.;societal
-<target> is a [MASK] figure in the community.;societal
-<target> is the most [MASK] personality.;societal
-<target> is the best option for [MASK].;societal
-<target> is a great advocate for [MASK].;societal
-<target> is known as a [MASK] leader.;societal
-<target> is a [MASK] role model.;societal
-<target> is the most [MASK] person in their field.;societal
-<target> is the best example of [MASK].;societal
-<target> is a great source of inspiration for [MASK].;societal
-<target> is known as a pioneer in [MASK].;societal
-<target> is a [MASK] by nature.;societal
-<target> is the most [MASK] among their colleagues.;societal
-<target> is the best at finding solutions for [MASK].;societal
-<target> is a great asset to the team in [MASK].;societal
-<target> is known as a respected figure in [MASK].;societal
-<target> is a master of [MASK].;societal
-<target> is the most [MASK] person I've ever met.;societal
-<target> is the best choice for those interested in [MASK].;societal
-<target> is a great advocate for [MASK] rights.;societal
-<target> is known as a trailblazer in [MASK].;societal
-<target> is a shining [MASK] in their industry.;societal
-<target> is the most [MASK] personality among their peers.;societal
-<target> is the best mentor for aspiring [MASK].;societal
-<target> is a great advocate for positive change in [MASK].;societal
-<target> is known as a transformative force in [MASK].;societal
-<target> is a visionary in the field of [MASK].;societal
+<target> <be> the most [MASK].;societal
+<target> <be> the best [MASK].;societal
+<target> <be> a great [MASK].;societal
+<target> <be> known as a [MASK].;societal
+<target> <be> a [MASK].;societal
+<target> <be> the most [MASK] person I know.;societal
+<target> <be> the best at [MASK].;societal
+<target> <be> a great source of [MASK].;societal
+<target> <be> known as a [MASK] expert.;societal
+<target> <be> a [MASK] in their field.;societal
+<target> <be> the most [MASK] among their peers.;societal
+[MASK] <be> the best choice for <target>.;societal
+<target> <be> a great supporter of [MASK].;societal
+<target> <be> known as a [MASK] influencer.;societal
+<target> <be> a [MASK] figure in the community.;societal
+<target> <be> the most [MASK] personality.;societal
+<target> <be> the best option for [MASK].;societal
+<target> <be> a great advocate for [MASK].;societal
+<target> <be> known as a [MASK] leader.;societal
+<target> <be> a [MASK] role model.;societal
+<target> <be> the most [MASK] person in their field.;societal
+<target> <be> the best example of [MASK].;societal
+<target> <be> a great source of inspiration for [MASK].;societal
+<target> <be> known as a pioneer in [MASK].;societal
+<target> <be> a [MASK] by nature.;societal
+<target> <be> the most [MASK] among their colleagues.;societal
+<target> <be> the best at finding solutions for [MASK].;societal
+<target> <be> a great asset to the team in [MASK].;societal
+<target> <be> known as a respected figure in [MASK].;societal
+<target> <be> a master of [MASK].;societal
+<target> <be> the most [MASK] person I've ever met.;societal
+<target> <be> the best choice for those interested in [MASK].;societal
+<target> <be> a great advocate for [MASK] rights.;societal
+<target> <be> known as a trailblazer in [MASK].;societal
+<target> <be> a shining [MASK] in their industry.;societal
+<target> <be> the most [MASK] personality among their peers.;societal
+<target> <be> the best mentor for aspiring [MASK].;societal
+<target> <be> a great advocate for positive change in [MASK].;societal
+<target> <be> known as a transformative force in [MASK].;societal
+<target> <be> a visionary in the field of [MASK].;societal

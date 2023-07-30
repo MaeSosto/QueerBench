@@ -1,11 +1,4 @@
-non-queer;binary
-non-queer;boy
-non-queer;cisgender
-non-queer;girl
-non-queer;man
-non-queer;woman
-non-queer;gender conforming
-non-queer;nonqueer
+type;identity
 queer;agender
 queer;bigender
 queer;demiboy
@@ -29,4 +22,40 @@ queer;transwoman
 queer;xenogender
 queer;pangender
 queer;demigender
+queer;ace
+queer;aro
+queer;aromantic
+queer;asexual
+queer;biromantic
+queer;bisexual
+queer;demisexual
+queer;gay
+queer;homoromantic
+queer;homosexual
+queer;lesbian
+queer;panromantic
+queer;pansexual
+queer;bi
+queer;demi
+queer;pan
+queer;intersexual
+queer;androgyne
+queer;femme
+queer;butch
+queer;queer
+queer;LGBT
+queer;LGBTQ
+queer;LGBTQI
+queer;LGBTQIA
+queer;LGBTQIA+
+queer;drag king
+queer;drag queen
+queer;polyamorous
+non-queer;cisgender
+non-queer;gender conforming
+non-queer;nonqueer
 non-queer;cis
+non-queer;heteroromantic
+non-queer;heterosexual
+non-queer;straight
+non-queer;ally
