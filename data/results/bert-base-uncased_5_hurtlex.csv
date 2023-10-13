@@ -1,10 +1,12 @@
-Animals;Crime and immoral behavior;Derogatory words;Female genitalia;Male genitalia;Homosexuality;Potential negative connotations;Professions and occupations;Prostitution;Social and economic disadvantage
-15;8;23;23;6;13;9;20;9;0
-2;0;4;1;0;1;1;0;0;0
-4;2;4;1;0;2;2;3;1;0
-33;4;45;16;25;18;4;6;63;0
-17;2;32;12;41;123;0;4;53;0
-24;7;35;8;26;106;3;3;44;0
-9;4;17;3;7;3;0;2;24;0
-6;1;8;1;12;28;4;1;6;0
-5;0;5;1;2;1;1;0;1;0
+Animals;Crime and immoral behavior;Derogatory words;Female genitalia;Male genitalia;Homosexuality;Potential negative connotations;Professions and occupations;Prostitution;Social and economic disadvantage;Score
+15.0;8.0;23.0;23.0;6.0;13.0;9.0;20.0;9.0;0.0;9.14
+2.0;0.0;4.0;1.0;0.0;1.0;1.0;0.0;0.0;0.0;8.49
+4.0;2.0;4.0;1.0;0.0;2.0;2.0;3.0;1.0;0.0;8.96
+33.0;4.0;45.0;16.0;25.0;18.0;4.0;6.0;63.0;0.0;9.61
+17.0;2.0;32.0;12.0;41.0;123.0;0.0;4.0;53.0;0.0;16.74
+24.0;7.0;35.0;8.0;26.0;106.0;3.0;3.0;44.0;0.0;20.12
+9.0;4.0;17.0;3.0;7.0;3.0;0.0;2.0;24.0;0.0;8.13
+6.0;1.0;8.0;1.0;12.0;28.0;4.0;1.0;6.0;0.0;3.95
+5.0;0.0;5.0;1.0;2.0;1.0;1.0;0.0;1.0;0.0;7.54
+74.0;13.0;112.0;36.0;92.0;247.0;7.0;13.0;160.0;0.0;14.51
+20.0;5.0;30.0;5.0;21.0;32.0;5.0;3.0;31.0;0.0;11.03
