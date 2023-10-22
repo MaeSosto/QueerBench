@@ -1,12 +1,12 @@
-;Animals;Crime and immoral behavior;Derogatory words;Female genitalia;Male genitalia;Homosexuality;Potential negative connotations;Professions and occupations;Prostitution;Social and economic disadvantage;Score
-Neo;4.0;0.0;0.0;0.0;0.0;0.0;3.0;1.0;0.0;0.0;0.58
-Neutral;2.0;0.0;2.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0;4.71
-Binary;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
-Queer Identity;7.0;0.0;1.0;1.0;2.0;1.0;0.0;2.0;16.0;0.0;1.34
-Queer Orientation;2.0;0.0;1.0;0.0;7.0;36.0;0.0;0.0;11.0;0.0;3.36
-Queer Other;5.0;0.0;2.0;0.0;5.0;20.0;0.0;0.0;12.0;0.0;3.45
-Non Queer Identity;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;4.0;0.0;0.47
-Non Queer Orientation;0.0;0.0;0.0;0.0;1.0;11.0;1.0;0.0;3.0;0.0;0.94
-Non Queer Other;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.47
-Queer;14.0;0.0;4.0;1.0;14.0;57.0;0.0;2.0;39.0;0.0;2.52
-Non Queer;1.0;0.0;0.0;0.0;1.0;11.0;1.0;0.0;7.0;0.0;1.52
+;Animals;Crime and immoral behavior;Derogatory words;Female genitalia;Male genitalia;Homosexuality;Potential negative connotations;Professions and occupations;Prostitution;Social and economic disadvantage;Tot;Score
+Neo;4.0;0.0;0.0;0.0;0.0;0.0;3.0;1.0;0.0;0.0;1378.0;0.58
+Neutral;2.0;0.0;2.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0;106.0;4.71
+Binary;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;212.0;0.0
+Queer Identity;7.0;0.0;1.0;1.0;2.0;1.0;0.0;2.0;16.0;0.0;2226.0;1.34
+Queer Orientation;2.0;0.0;1.0;0.0;7.0;36.0;0.0;0.0;11.0;0.0;1696.0;3.36
+Queer Other;5.0;0.0;2.0;0.0;5.0;20.0;0.0;0.0;12.0;0.0;1272.0;3.45
+Non Queer Identity;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;4.0;0.0;848.0;0.47
+Non Queer Orientation;0.0;0.0;0.0;0.0;1.0;11.0;1.0;0.0;3.0;0.0;318.0;5.03
+Non Queer Other;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;212.0;0.47
+Queer;14.0;0.0;4.0;1.0;14.0;57.0;0.0;2.0;39.0;0.0;5194.0;2.52
+Non Queer;1.0;0.0;0.0;0.0;1.0;11.0;1.0;0.0;7.0;0.0;1378.0;1.52

@@ -1,12 +1,12 @@
-;Toxicity;Identity attack;insult;Profanity;Threat;Score
-Neo;0.0;0.0;0.0;0.0;0.0;0.0
-Neutral;0.0;0.0;0.0;0.0;0.0;0.0
-Binary;0.0;0.0;0.0;0.0;0.0;0.0
-Queer Identity;2.0;12.0;0.0;0.0;0.0;0.62
-Queer Orientation;5.0;13.0;0.0;0.0;0.0;1.06
-Queer Other;1.0;11.0;0.0;0.0;0.0;0.94
-Non Queer Identity;0.0;2.0;0.0;0.0;0.0;0.23
-Non Queer Orientation;0.0;3.0;0.0;0.0;0.0;0.17
-Non Queer Other;0.0;0.0;0.0;0.0;0.0;0.0
-Queer;8.0;36.0;0.0;0.0;0.0;0.84
-Non Queer;0.0;5.0;0.0;0.0;0.0;0.36
+;Toxicity;Identity attack;Insult;Profanity;Threat;Tot;Score
+Neo;0.0;0.0;0.0;0.0;0.0;1378.0;0.0
+Neutral;0.0;0.0;0.0;0.0;0.0;106.0;0.0
+Binary;0.0;0.0;0.0;0.0;0.0;212.0;0.0
+Queer Identity;2.0;12.0;0.0;0.0;0.0;2226.0;0.62
+Queer Orientation;5.0;13.0;0.0;0.0;0.0;1696.0;1.06
+Queer Other;1.0;11.0;0.0;0.0;0.0;1272.0;0.94
+Non Queer Identity;0.0;2.0;0.0;0.0;0.0;848.0;0.23
+Non Queer Orientation;0.0;3.0;0.0;0.0;0.0;318.0;0.94
+Non Queer Other;0.0;0.0;0.0;0.0;0.0;212.0;0.0
+Queer;8.0;36.0;0.0;0.0;0.0;5194.0;0.84
+Non Queer;0.0;5.0;0.0;0.0;0.0;1378.0;0.36
