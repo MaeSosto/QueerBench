@@ -8,7 +8,7 @@ Archive content:
     .
     └── QueerBench/
     ├── data/
-    │   ├── evaluaton/
+    │   ├── evaluation/
     │   ├── prediction/
     │   ├── queer_identities/
     │   │   ├── pronouns.csv
@@ -30,21 +30,21 @@ Archive content:
 Where:
 - data/evaluation/ contains the assessed sentences and their assessment.
 - data/prediction/ contains the neutral sentences with a subject applied, the subject and the predicted word/words.
-- data/queer_identities/ contains the two .csv files that contains pronouns and terms used in the framework.
+- data/queer_identities/ contains the two .csv files that contain pronouns and terms used in the framework.
 - data/results/ contains the results obtained by all the models on all the tools and categories.
-- data/template/ contains two .csv files, template.csv contains the nautral sentences and template_complete.csv contains the neutral sentences intersecated with the terms and pronouns as subject.
+- data/template/ contains two .csv files, template.csv contains the natural sentences and template_complete.csv contains the neutral sentences intersected with the terms and pronouns as subject.
 - graphs/pronouns/ contains the graphs as .png files obtained by assessing the predictions obtained using pronouns as the subject.
 - graphs/terms/ contains the graphs as .png files obtained by assessing the predictions obtained using terms as the subject.
 - src/queer_evaluator - Hurtlex.ipynb contains the functions used to obtain HurtLex assessments.
 - src/queer_evaluator - Perspective.ipynb contains the functions used to obtain Perspective API assessments.
 - src/queer_evaluator - Sentiment Analysis.ipynb contains the functions used to obtain AFINN assessments.
 - src/queer_graph.ipynb contains the functions used to generate the graphs.
-- src/queer_results.ipynb contains the functions used to generate the tables that includes the scores on the dataset.
+- src/queer_results.ipynb contains the functions used to generate the tables that include the dataset's scores.
 - src/template_builder.ipynb contains the functions used to generate the dataset
 
 ## Running Tests
 
-1. To run tests first create the dataset running the code in template_builder.ipynb using the following pattern.
+1. To run tests, create the dataset running the code in template_builder.ipynb using the following pattern.
 Input: model, number of predictions
 
 Example: 
@@ -56,16 +56,16 @@ Example:
 - queer_evaluator - Perspective.ipynb
 - queer_evaluator - Sentiment Analysis.ipynb
 
-In each file give as input: input file path, template, output file path
+In each file given as input: input file path, template, output file path
 
 Example:
 ```python
     QueerEvaluator(EVALUATION_PATH, BERTWEET_LARGE_TEMPLATE_1, EVALUATION_PATH)
 ```
-3. Run the functions in queer_results.ipynb to combine all the assessment, calculate the QueerBench score and generate the two overall scores for the terms and pronouns which are data/results/total_score_term.csv and data/results/total_score_pronouns.csv corrispondigly.
+3. Run the functions in queer_results.ipynb to combine all the assessments, calculate the QueerBench score and generate the two overall scores for the terms and pronouns which are data/results/total_score_term.csv and data/results/total_score_pronouns.csv correspondingly.
 
-4. Use the functions in queer_graph.ipynb to generate the graphs based by the tables created in the previous step. The available functons are:
-- Generate a point graphs giving model and subject categoies (used for AFFIN test). 
+4. Use the functions in queer_graph.ipynb to generate the graphs based on the tables created in the previous step. The available functions are:
+- Generate a point graph giving model and subject categories (used for AFFIN test). 
 Example:
 ```python
 error_bar(BERTWEET_MODELS, PRONOUN)
@@ -80,16 +80,10 @@ Example:
 ```python
 hurtlex_linebar(MODELS, TERM))
 ```
-- Generate a two heat maps based on the pronouns and terms scores. The boolean in input allows to obtain a complete graph or a partial graph.
+- Generate two heat maps based on the pronouns and terms scores. The boolean in input allows us to obtain either a full or a partial graph.
 ```python
 term_graph_score(False)
 pronouns_graph_score(False)
 ```
-
-
-## Authors
-
-[@MaeSosto](https://github.com/MaeSosto)
-
 
 
