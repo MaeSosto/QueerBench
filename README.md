@@ -21,7 +21,7 @@ Archive content:
     ├── src/
     │   ├── queer_evaluator - Hurtlex.ipynb
     │   ├── queer_evaluator - Perspective.ipynb
-    │   ├── queer_evaluator - Sentiment Analysis.ipynb
+    │   ├── queer_evaluator - Afinn.ipynb
     │   ├── queer_graph.ipynb
     │   ├── queer_results.ipynb
     │   └── template_builder.ipynb
