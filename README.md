@@ -21,7 +21,7 @@ Archive content:
     ├── src/
     │   ├── queer_evaluator - Hurtlex.ipynb
     │   ├── queer_evaluator - Perspective.ipynb
-    │   ├── queer_evaluator - Sentiment Analysis.ipynb
+    │   ├── queer_evaluator - Afinn.ipynb
     │   ├── queer_graph.ipynb
     │   ├── queer_results.ipynb
     │   └── template_builder.ipynb
@@ -54,7 +54,7 @@ Example:
 2. To assess the dataset use the three files: 
 - queer_evaluator - Hurtlex.ipynb
 - queer_evaluator - Perspective.ipynb
-- queer_evaluator - Sentiment Analysis.ipynb
+- queer_evaluator - Afinn.ipynb
 
 In each file given as input: input file path, template, output file path
 
@@ -65,25 +65,24 @@ Example:
 3. Run the functions in queer_results.ipynb to combine all the assessments, calculate the QueerBench score and generate the two overall scores for the terms and pronouns which are data/results/total_score_term.csv and data/results/total_score_pronouns.csv correspondingly.
 
 4. Use the functions in queer_graph.ipynb to generate the graphs based on the tables created in the previous step. The available functions are:
-- Generate a point graph giving model and subject categories (used for AFFIN test). 
+- Generate a point graph that shows results from Afinn test. 
 Example:
 ```python
-error_bar(BERTWEET_MODELS, PRONOUN)
+afinn_graph(MODELS, PRONOUN)
 ```
-- Generate a line and bar graph (used for Perspective test). 
+- Generate a line and bar graph that shows results from Perspective test. 
 Example:
 ```python
-perspective_linebar(perspective_linebar(ROBERTA_MODELS, PRONOUN))
+perspective_graph(MODELS, PRONOUN)
 ```
-- Generate a line and bar graph (used for Perspective test). 
+- Generate a line and bar graph that shows results from Hurtlex test. 
 Example:
 ```python
-hurtlex_linebar(MODELS, TERM))
+hurtlex_graph(MODELS, PRONOUN))
 ```
-- Generate two heat maps based on the pronouns and terms scores. The boolean in input allows us to obtain either a full or a partial graph.
+- Generate an heat maps based on either pronouns or terms scores. The function allows us to obtain either a full or a partial graph.
 ```python
-term_graph_score(False)
-pronouns_graph_score(False)
+partial_graph(type, test)
 ```
 
 
