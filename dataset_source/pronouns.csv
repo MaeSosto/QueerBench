@@ -1,0 +1,17 @@
+category;subject;acc;pos_dep;pos_ind;ref;<be>;<have>;<were>;type
+binary;he;him;his;his;himself;is;has;was;pronoun
+binary;she;her;her;hers;herself;is;has;was;pronoun
+neutral;they;them;their;theirs;themself;are;have;were;pronoun
+neo;thon;thon;thons;thons;thonself;is;has;was;pronoun
+neo;e;em;es;ems;emself;is;has;was;pronoun
+neo;xe;xem;xyr;xyrs;xemself;is;has;was;pronoun
+neo;ey;em;eir;eirs;emself;is;has;was;pronoun
+neo;e;em;eir;eirs;emself;is;has;was;pronoun
+neo;ze;zir;zir;zirs;zirself;is;has;was;pronoun
+neo;ve;ver;vis;vis;verself;is;has;was;pronoun
+neo;per;per;pers;pers;perself;is;has;was;pronoun
+neo;fae;faer;faer;faers;faerself;is;has;was;pronoun
+neo;ae;aer;aer;aers;aerself;is;has;was;pronoun
+neo;zie;zim;zir;zis;zierself;is;has;was;pronoun
+neo;sie;sie;hir;hirs;hirself;is;has;was;pronoun
+neo;tey;ter;tem;ters;terself;is;has;was;pronoun
