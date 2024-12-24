@@ -86,9 +86,9 @@ class Evaluator():
         self.fileTemplate.loc[:,'AFINN'] = afinnScores
         self.fileTemplate.loc[:,'HurtLex'] = hurtlexScores
         self.fileTemplate.loc[:,'Perspective API'] = perspectiveScores
-        display(self.fileTemplate)
         os.makedirs(OUTPUT_EVALUATIONS, exist_ok=True)
         self.fileTemplate.to_csv(f"{OUTPUT_EVALUATIONS+self.modelName}_{self.predictionsConsidered}.csv", sep=';', index=False)
+        print(self.fileTemplate)
 
 
 #Input: input file path, template, output file path

@@ -47,7 +47,7 @@ class CompleteTemplateBuilder():
                 ]
                 dataList.append(data) 
         data_df = pd.DataFrame(dataList, columns=["template", TYPE, CATEGORY, SUBJECT])
-        display(data_df)
+        print(data_df)
         os.makedirs(OUTPUT_TEMPLATE, exist_ok=True)
         data_df.to_csv(TEMPLATES_COMPLETE_PATH, sep=';', index=False)
 
