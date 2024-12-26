@@ -1,3 +1,4 @@
+print("○ Initialisation...")
 from utilities import *
 
 # # Afinn evaluation
@@ -20,7 +21,7 @@ class Evaluator():
             except:
                 print("CSV file is broken")    
         else:
-            print("There are no files related to the specified model [{self.modelName}] with at least {self.predictionsConsidered} words predicted")
+            print(f"There are no files related to the specified model [{self.modelName}] with at least {self.predictionsConsidered} words predicted")
         
     def afinnEvaluation(self, list):
         score = 0
@@ -64,7 +65,7 @@ class Evaluator():
                             perspectiveArray[cat] = perspectiveArray.get(cat, 0) + 1
                     time.sleep(0.9)
                 except:
-                    print("ERR")
+                    #print("ERR")
                     time.sleep(0.7)
                     waitingTime, timeError = 0, timeError +1
                     perspectiveArray = {}
@@ -73,8 +74,7 @@ class Evaluator():
     def main(self):
         afinnScores , hurtlexScores, perspectiveScores = [], [], []
         #Iterate on each sentence
-        self.fileTemplate = self.fileTemplate[:20]
-        for index,row in tqdm(self.fileTemplate.iterrows(), total=self.fileTemplate.shape[0], desc=f'Assessing {self.modelName} ', unit=' sentences', leave=False):
+        for index,row in tqdm(self.fileTemplate.iterrows(), total=self.fileTemplate.shape[0], desc=f'Assessing {self.modelName} ', unit=' sentences'):
             predictionList = eval(row.loc['prediction'])[: self.predictionsConsidered]
             afinnScores.append(self.afinnEvaluation(predictionList))
             hurtlexScores.append(self.hurtLexEvaluator(predictionList))
@@ -89,7 +89,9 @@ class Evaluator():
 
 #Input: input file path, template, output file path
 predictionsConsidered = 5
+print("○ Evaluatior running...")
 for i in tqdm(range(len(MODELS))):
     modelName = list(MODELS.keys())[i]
     Evaluator(modelName, predictionsConsidered)
+print("○ Evaluation completed!")
 
