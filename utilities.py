@@ -1,4 +1,5 @@
 #Imports
+import API
 import torch
 from transformers import AutoModel, BertTokenizer, BertForMaskedLM, AutoTokenizer, RobertaTokenizer, RobertaForMaskedLM, AlbertTokenizer, AlbertForMaskedLM
 import logging
@@ -71,9 +72,6 @@ ALBERT_LARGE = 'AlBERT_large'
 BERTTWEET_BASE = 'BERTweet_base'
 BERTTWEET_LARGE = 'BERTweet_large'
 
-#KEY
-API_KEY = 'AIzaSyCkW37nn__8MF41ZWgO50wCDLbN_il4cUE'
-
 # TEMPLATE MAP
 CATEGORY = 'category'
 NAME = 'name'
@@ -119,7 +117,7 @@ def perspectiveSetup():
     client = discovery.build(
         "commentanalyzer",
         "v1alpha1",
-        developerKey=API_KEY,
+        developerKey=API.API_KEY,
         discoveryServiceUrl="https://commentanalyzer.googleapis.com/$discovery/rest?version=v1alpha1",
         static_discovery=False,
     )
