@@ -1,5 +1,5 @@
 print("○ Initialisation...")
-from utilities import *
+from constants import *
 
 # # Afinn evaluation
 class Evaluator():
@@ -88,7 +88,7 @@ class Evaluator():
 
 
 #Input: input file path, template, output file path
-predictionsConsidered = 5
+predictionsConsidered = 1
 print("○ Evaluatior running...")
 for i in tqdm(range(len(MODELS))):
     modelName = list(MODELS.keys())[i]

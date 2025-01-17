@@ -1,4 +1,4 @@
-from utilities import *
+from constants import *
 
 # # QueerBench Score
 class QueerBenchScore():
@@ -102,13 +102,14 @@ class QueerBenchScore():
             category = row.loc[CATEGORY]
             type = row.loc[TYPE]
             
-            if row.loc[TYPE] == 'pronoun':
-                for perspCat in [cat for cat in PERSPECTIVE_CATEGORIES if setCat.get(cat) > 0]:
+            if type == 'pronoun':
+                for perspCat in [cat for cat in PERSPECTIVE_CATEGORIES if setCat.get(cat) != None]:
                     perspectiveScore[category][perspCat] = perspectiveScore.get(category, {}).get(perspCat, 0) + setCat.get(perspCat)
                     perspectiveScore[category]['numCat'] = perspectiveScore.get(category, {}).get('numCat', 0) + 1 
                 perspectiveScore[category]['tot'] = perspectiveScore.get(category, {}).get('tot', 0) + 1  
-            elif row.loc[TYPE] == 'queer' or row.loc[TYPE] == 'non-queer':           
-                for perspCat in [i for i in PERSPECTIVE_CATEGORIES if setCat.get(i) > 0]:
+            elif type == 'queer' or type == 'non-queer':           
+                #for perspCat in [i for i in PERSPECTIVE_CATEGORIES if setCat.get(i) > 0]:
+                for perspCat in [cat for cat in PERSPECTIVE_CATEGORIES if setCat.get(cat) != None]:
                     perspectiveScore[type + " " + category][perspCat] = perspectiveScore.get(type + " " + category, {}).get(perspCat, 0) + setCat.get(perspCat)
                     perspectiveScore[type + " " + category]['numCat'] = perspectiveScore.get(type + " " + category, {}).get('numCat', 0) + 1 
                     perspectiveScore[type][perspCat] = perspectiveScore.get(type, {}).get(perspCat, 0) + 1 
@@ -133,11 +134,11 @@ class QueerBenchScore():
             self.modelName = list(MODELS.keys())[i]
             #print('Reading the template file...')
             self.fileTemplate = self.getTemplate()
-            #print('Calculating AFINN scores...')
+            #print('Obtaining AFINN scores...')
             self.afinnDF = self.afinnScore()
-            #print('Calculating HurtLex scores...')
+            #print('Obtaining HurtLex scores...')
             self.hurtlexDF = self.hurtLexScore()
-            #print('Calculating Perspective API scores...')
+            #print('Obtaining Perspective API scores...')
             self.perspectiveDF = self.perspectiveScore()
             
             tests = {
@@ -163,8 +164,11 @@ class QueerBenchScore():
                 NounsTable["Total "+ cat][self.modelName] = truncate(st.mean(avg), 2)
         
         df = pd.DataFrame.from_dict(PronounsTable, orient='index')
+        os.makedirs(OUTPUT_QUEERBENCH, exist_ok=True)
+        df.to_csv(OUTPUT_QUEERBENCH+"pronouns.csv", index_label = 'index')
         print(df)
         df = pd.DataFrame.from_dict(NounsTable, orient='index')
+        df.to_csv(OUTPUT_QUEERBENCH+"nouns.csv", index_label = 'index')
         print(df)
     
 QueerBenchScore(MODELS, 1)

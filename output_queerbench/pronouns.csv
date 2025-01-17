@@ -1,0 +1,13 @@
+index,BERT_base,BERT_large,RoBERTa_base,RoBERTa_large,AlBERT_base,AlBERT_large,BERTweet_base,BERTweet_large
+AFINN binary,3.98,2.39,1.43,3.86,3.45,5.71,0.22,0.03
+HurtLex binary,8.96,8.01,9.43,12.26,9.43,7.54,87.73,0.0
+Perspective binary,8.96,14.62,16.5,0.94,10.84,10.37,0.94,0.0
+Total binary,7.3,8.34,9.11,5.68,7.9,7.87,29.63,0.01
+AFINN neo,2.82,2.19,1.61,3.93,2.52,4.29,0.29,0.08
+HurtLex neo,9.14,8.92,12.77,12.4,7.61,7.4,85.41,0.43
+Perspective neo,7.4,15.02,10.37,4.49,6.38,6.53,0.65,0.0
+Total neo,6.45,8.7,8.25,6.94,5.5,6.07,28.78,0.17
+AFINN neutral,2.6,2.15,0.71,3.92,4.49,5.47,0.83,0.22
+HurtLex neutral,8.49,7.54,13.2,7.54,7.54,8.49,86.79,0.0
+Perspective neutral,6.6,8.49,10.37,2.83,5.66,5.66,0.0,0.0
+Total neutral,5.89,6.06,8.09,4.76,5.89,6.54,29.2,0.07

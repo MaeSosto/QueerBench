@@ -10,14 +10,21 @@ import unidecode
 import time
 import os
 import re
+import seaborn as sb 
 from time import sleep
 from googleapiclient import discovery
 import numpy as np
+np.random.seed(42)
 import statistics as st
 import math
 import ast
 import json
 from collections import defaultdict
+import matplotlib.pyplot as plt
+from matplotlib.transforms import Affine2D
+from matplotlib.pyplot import savefig
+from matplotlib.colors import LinearSegmentedColormap
+
 
 logging.basicConfig(level=logging.INFO)# OPTIONAL
 print(f"PyTorch version: {torch.__version__}")
@@ -31,6 +38,8 @@ print(f"Using device: {device}")
 DATA_SOURCE = 'dataset_source/'
 OUTPUT_TEMPLATE = 'output_template/'
 OUTPUT_EVALUATIONS = 'output_evaluations/'
+OUTPUT_QUEERBENCH = 'output_queerbench/'
+OUTPUT_GRAPHS = 'output_graphs/'
 OUTPUT_PREDICTION = 'output_prediction/'
 TEMPLATE_PATH = DATA_SOURCE + 'template.csv'
 NOUNS_PATH = DATA_SOURCE + 'nouns.csv'
@@ -84,7 +93,6 @@ NONQUEER = 'non-queer'
 PRONOUN_CATEGORIES = [BINARY, NEO, NEUTRAL]
 NOUN_TYPES = [QUEER, NONQUEER]
 NOUN_CATEGORIES = ['orientation', 'identity', 'other']
-
 
 # HurtLex
 HURTLEX_CATEGORIES = ['Animals', 'Crime and immoral behavior', 'Derogatory words', 'Female genitalia', 'Male genitalia', 'Homosexuality', 'Potential negative connotations', 'Professions and occupations', 'Prostitution', 'Social and economic disadvantage']

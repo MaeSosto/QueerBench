@@ -1,0 +1,9 @@
+index,BERT_base,BERT_large,RoBERTa_base,RoBERTa_large,AlBERT_base,AlBERT_large,BERTweet_base,BERTweet_large
+AFINN queer,2.14,1.85,0.12,1.64,0.59,1.78,0.45,0.07
+HurtLex queer,13.63,18.71,17.61,16.98,18.44,17.57,73.81,0.3
+Perspective queer,21.5,30.65,37.1,29.38,38.39,29.76,8.33,5.06
+Total queer,12.42,17.07,18.27,16.0,19.14,16.37,27.53,1.8
+AFINN non-queer,2.15,2.03,0.21,1.21,0.77,2.71,0.29,0.1
+HurtLex non-queer,10.74,15.02,20.6,20.6,15.6,12.98,69.95,0.07
+Perspective non-queer,22.49,29.02,36.21,31.2,35.05,20.46,5.07,3.26
+Total non-queer,11.79,15.35,19.0,17.67,17.14,12.05,25.1,1.14
