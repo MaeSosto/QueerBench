@@ -60,6 +60,18 @@ MASKBERT = '[MASK]'
 MASKROBERT = '<mask>'
 THE = 'the'
 
+LLAMA3 = 'llama3'
+LLAMA3_70B = 'llama3:70b'
+GEMMA2 = 'gemma2'
+GEMMA2_27B = 'gemma2:27b'
+GPT4 = 'gpt-4o'
+
+LLAMA3 = 'llama3'
+LLAMA3_70B = 'llama3:70b'
+GEMMA2 = 'gemma2'
+GEMMA2_27B = 'gemma2:27b'
+GPT4 = 'gpt-4o'
+
 # MODELS
 MODELS = {
     'BERT_base': 'bert-base-uncased',
@@ -69,7 +81,12 @@ MODELS = {
     'AlBERT_base': 'albert-base-v2',
     'AlBERT_large': 'albert-large-v2',
     'BERTweet_base': 'vinai/bertweet-base',
-    'BERTweet_large': 'vinai/bertweet-large'
+    'BERTweet_large': 'vinai/bertweet-large',
+    # LLAMA3 : 'llama3',
+    # LLAMA3_70B : 'llama3:70b',
+    # GEMMA2 : 'gemma2',
+    # GEMMA2_27B : 'gemma2:27b',
+    # GPT4 : 'gpt-4o'
 }
 
 BERT_BASE = 'BERT_base'
@@ -82,6 +99,8 @@ BERTTWEET_BASE = 'BERTweet_base'
 BERTTWEET_LARGE = 'BERTweet_large'
 
 # TEMPLATE MAP
+NOUN = 'noun'
+PRONOUN = 'pronoun'
 CATEGORY = 'category'
 NAME = 'name'
 TYPE = 'type'
@@ -90,9 +109,17 @@ NEO = 'neo'
 NEUTRAL = 'neutral'
 QUEER = 'queer'
 NONQUEER = 'non-queer'
+ORIENTATION = 'orientation'
+IDENTITY = 'identity'
+OTHER = 'other'
 PRONOUN_CATEGORIES = [BINARY, NEO, NEUTRAL]
 NOUN_TYPES = [QUEER, NONQUEER]
-NOUN_CATEGORIES = ['orientation', 'identity', 'other']
+NOUN_CATEGORIES = [ORIENTATION, IDENTITY, OTHER]
+
+#Evaluation Tools
+AFINN = 'AFINN'
+HURTLEX = 'HurtLex'
+PERSPECTIVE = 'Perspective'
 
 # HurtLex
 HURTLEX_CATEGORIES = ['Animals', 'Crime and immoral behavior', 'Derogatory words', 'Female genitalia', 'Male genitalia', 'Homosexuality', 'Potential negative connotations', 'Professions and occupations', 'Prostitution', 'Social and economic disadvantage']
@@ -114,7 +141,7 @@ Y_AXE = ['Binary','Neutral', 'Neo', 'Queer Identity', 'Queer Orientation', 'Quee
 def strip_accent(accented_string):
     return unidecode.unidecode(str(accented_string))
 
-def hurtlexSetup():
+def hurtLexSetup():
     language = 'en'
     hurtlex = pd.read_csv(f"https://raw.githubusercontent.com/MilaNLProc/hurtlex/master/lexica/{language.upper()}/1.2/hurtlex_{language.upper()}.tsv", sep="\t")
     hurtlex = hurtlex[hurtlex["level"] == "conservative"]
@@ -125,16 +152,19 @@ def perspectiveSetup():
     client = discovery.build(
         "commentanalyzer",
         "v1alpha1",
-        developerKey=API.API_KEY,
+        developerKey=API.API_KEY_PERSPECTIVE,
         discoveryServiceUrl="https://commentanalyzer.googleapis.com/$discovery/rest?version=v1alpha1",
         static_discovery=False,
     )
     return client
 
-def truncate(float_number, decimal_places):
+def truncate(float_number, decimal_places = 2):
     multiplier = 10 ** decimal_places
-    return int(float_number * multiplier) / multiplier
-
+    try:
+        return int(float_number * multiplier) / multiplier
+    except:
+        return 0
+    
 def shiftAfinnScore(num):
     # Calculates the distance from 0 and map it in a range between [0, 100]
     return abs(num) * 20

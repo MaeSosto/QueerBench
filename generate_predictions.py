@@ -46,12 +46,12 @@ def getPredictions(modelName, numPrediction):
     for index,row in tqdm(templateFile.iterrows(), total=templateFile.shape[0], desc=f'Predicting mask with {modelName} in top-{numPrediction}', unit='sentences'):
         model_prediction = getWordPrediction(modelName, model, tokenizer, numPrediction, row.loc['template'])
         prediction.append(model_prediction)
+        
+    
     templateFile.loc[:,'prediction'] = prediction
     os.makedirs(OUTPUT_PREDICTION, exist_ok=True)
     templateFile.to_csv(f'{OUTPUT_PREDICTION}/{modelName}_{numPrediction}.csv', sep=';', index=False)
 
-
-##Get predictions
 #Input: model, number of predictions
 for i in range(len(MODELS)):
     modelName = list(MODELS.keys())[i]
