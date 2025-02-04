@@ -1,5 +1,5 @@
 print("○ Initialisation...")
-from constants import *
+from lib.constants import *
 
 def getListFromString(text):
     text = re.sub(r"'", "", str(text))

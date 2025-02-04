@@ -1,4 +1,4 @@
-from constants import *
+from lib.constants import *
 
 def getTemplate(modelName, predictionsConsidered):
     files = []
