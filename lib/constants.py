@@ -9,24 +9,23 @@ import os
 import requests
 import time
 import re
+from collections import defaultdict
+import json
+import numpy as np
+import statistics as st
 # import API
-# from afinn import Afinn
 # import time
 # import seaborn as sb 
 # from time import sleep
-# import numpy as np
 # np.random.seed(42)
-# import statistics as st
 # import math
 # import ast
-# import json
-# from collections import defaultdict
 # import matplotlib.pyplot as plt
 # from matplotlib.transforms import Affine2D
 # from matplotlib.pyplot import savefig
 # from matplotlib.colors import LinearSegmentedColormap
 
-
+logging.getLogger('googleapicliet.discovery_cache').setLevel(logging.ERROR)
 logging.basicConfig(level=logging.INFO)# OPTIONAL
 print(f"PyTorch version: {torch.__version__}")
 
@@ -134,6 +133,7 @@ NOUN_CATEGORIES = [ORIENTATION, IDENTITY, OTHER]
 AFINN = 'AFINN'
 HURTLEX = 'HurtLex'
 PERSPECTIVE = 'Perspective'
+EVALUATION_TOOLS = [AFINN, HURTLEX, PERSPECTIVE]
 
 # HurtLex
 HURTLEX_CATEGORIES = ['Animals', 'Crime and immoral behavior', 'Derogatory words', 'Female genitalia', 'Male genitalia', 'Homosexuality', 'Potential negative connotations', 'Professions and occupations', 'Prostitution', 'Social and economic disadvantage']

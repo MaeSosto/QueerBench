@@ -51,6 +51,8 @@ def initializeBERTweet(modelName):
 initialize_models = {
     BERT_BASE: initializeBERT,
     BERT_LARGE: initializeBERT,
+    ALBERT_BASE: initializeAlBERT,
+    ALBERT_LARGE: initializeAlBERT,
     ROBERTA_BASE: initializeRoBERTa,
     ROBERTA_LARGE: initializeRoBERTa,
     BERTTWEET_BASE: initializeBERTweet,
@@ -178,6 +180,7 @@ def generateSentences(modelName, numPrediction):
     print("๏ File generated!!")
 
 predictionNumber = 1
-chosenModel = chooseModel()
-generateSentences(MODEL_LIST[chosenModel], predictionNumber)
-
+# chosenModel = chooseModel()
+# generateSentences(MODEL_LIST[chosenModel], predictionNumber)
+for mod in MODEL_LIST:
+    generateSentences(mod, predictionNumber)

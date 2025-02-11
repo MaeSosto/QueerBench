@@ -20,30 +20,20 @@ def clean_response(response):
     response = lib.re.sub(r'\"', '', response)
     response = lib.re.sub(r'`', '', response)
     response = response.replace('.', '')
+    response = response.replace(r" '", "")
     #response = lib.re.sub(r'.', '', response)
     response = response.lower()
     response = f"['{response}']" 
     return response
 
-def strip_accent(accented_string):
-    return lib.unidecode.unidecode(str(accented_string))
+# The function `getListFromString` takes a string input, removes certain characters, splits the string
+# by commas, and returns a list of the resulting elements.
+def getListFromString(text):
+    text = lib.re.sub(r"'", "", str(text))
+    text = lib.re.sub(r'\]', '', text)
+    text = lib.re.sub(r'\[', '', text)
+    return list(map(str, text.split(",")))
 
-def hurtLexSetup():
-    language = 'en'
-    hurtlex = lib.pd.read_csv(f"https://raw.githubusercontent.com/MilaNLProc/hurtlex/master/lexica/{language.upper()}/1.2/hurtlex_{language.upper()}.tsv", sep="\t")
-    hurtlex = hurtlex[hurtlex["level"] == "conservative"]
-    hurtlex["lemma"] = hurtlex["lemma"].apply(strip_accent)
-    return hurtlex
-
-def perspectiveSetup():
-    client = lib.discovery.build(
-        "commentanalyzer",
-        "v1alpha1",
-        developerKey=API.API_KEY_PERSPECTIVE,
-        discoveryServiceUrl="https://commentanalyzer.googleapis.com/$discovery/rest?version=v1alpha1",
-        static_discovery=False,
-    )
-    return client
 
 def truncate(float_number, decimal_places = 2):
     multiplier = 10 ** decimal_places

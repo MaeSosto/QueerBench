@@ -1,4 +1,5 @@
 from lib.constants import *
+from lib.utils import truncate
 
 def getTemplate(modelName, predictionsConsidered):
     files = []
@@ -13,7 +14,7 @@ def getTemplate(modelName, predictionsConsidered):
     #print(files)
     if len(files) > 0:
         try:
-            return pd.read_csv(f'{OUTPUT_EVALUATIONS+modelName}_{files[0]}.csv', index_col=0, sep=";", dtype={'template': 'category','queerness': 'category', 'name': 'category', 'CATEGORY': 'category', 'prediction': 'category',})
+            return pd.read_csv(f'{OUTPUT_EVALUATION+modelName}_{files[0]}.csv', index_col=0, sep=";", dtype={'template': 'category','queerness': 'category', 'name': 'category', 'CATEGORY': 'category', 'prediction': 'category',})
         except:
             print("CSV file is broken")    
     else:
@@ -178,5 +179,5 @@ def QueerBenchScore(MODELS, predictionsConsidered):
     
 predictionsConsidered = 1
 print("○ Calculating QueerBench score...")
-QueerBenchScore(MODELS, predictionsConsidered)
+QueerBenchScore(MODEL_LIST, predictionsConsidered)
 
