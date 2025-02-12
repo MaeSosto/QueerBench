@@ -41,7 +41,3 @@ def truncate(float_number, decimal_places = 2):
         return int(float_number * multiplier) / multiplier
     except:
         return 0
-    
-def shiftAfinnScore(num):
-    # Calculates the distance from 0 and map it in a range between [0, 100]
-    return abs(num) * 20

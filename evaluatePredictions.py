@@ -116,6 +116,7 @@ def getTemplateFile(modelName, inputFolder, outputFolder, predictionConsidered):
             df[TYPE].append(row.loc[TYPE])
             df[TEMPLATE].append(row.loc[TEMPLATE])
             df[GENERATED].append(row.loc[GENERATED])
+            df[CATEGORY].append(row.loc[CATEGORY])
             for tool in EVALUATION_TOOLS:
                 df[tool].append(row.loc[tool])
         print(f"๏ Importing sentences from a pre-existing evaluation file [{startingFrom} sentences imported]")
@@ -137,6 +138,7 @@ def evaluatePrediction(modelName, predictionsConsidered):
         preTemplateFile[TYPE].append(row.loc[TYPE])
         preTemplateFile[TEMPLATE].append(row.loc[TEMPLATE])
         preTemplateFile[GENERATED].append(row.loc[GENERATED])
+        preTemplateFile[CATEGORY].append(row.loc[CATEGORY])
         
         predictionList = getListFromString(row.loc[GENERATED])[: predictionsConsidered]
         for key, func in score_functions.items():

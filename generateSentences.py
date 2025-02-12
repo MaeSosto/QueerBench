@@ -23,6 +23,7 @@ def preExistingFile(modelName, numPrediction):
             dicSentences[TYPE].append(row.loc[TYPE])
             dicSentences[TEMPLATE].append(row.loc[TEMPLATE])
             dicSentences[GENERATED].append(row.loc[GENERATED])
+            dicSentences[CATEGORY].append(row.loc[CATEGORY])
         print("๏ Sentences imported correctly!")
     else:
         print("๏ Starting from the the source files")  
@@ -173,6 +174,7 @@ def generateSentences(modelName, numPrediction):
         response = request_models[modelName](prompt, modelName, model, tokenizer, row.loc[TEMPLATE], numPrediction)
         dicSentences[TYPE].append(row.loc[TYPE])
         dicSentences[TEMPLATE].append(row.loc[TEMPLATE])
+        dicSentences[CATEGORY].append(row.loc[CATEGORY])
         dicSentences[GENERATED].append(response)
         df = pd.DataFrame.from_dict(dicSentences)    
         os.makedirs(OUTPUT_SENTENCES, exist_ok=True)
@@ -182,5 +184,6 @@ def generateSentences(modelName, numPrediction):
 predictionNumber = 1
 # chosenModel = chooseModel()
 # generateSentences(MODEL_LIST[chosenModel], predictionNumber)
+MODEL_LIST = [ALBERT_BASE, ALBERT_LARGE, BERTTWEET_BASE, BERTTWEET_LARGE]
 for mod in MODEL_LIST:
     generateSentences(mod, predictionNumber)
