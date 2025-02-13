@@ -80,21 +80,6 @@ def getPerspectiveScore(perspectiveSetup, predictedWords, sentence):
                 perspectiveArray = {}
     return perspectiveArray
 
-def getCSVFile(folder, modelName, predictionsConsidered):
-    files = []
-    for f in os.listdir(folder):
-        pred = f.replace(f'{modelName}_', '').replace('.csv', '')
-        try:
-            if re.match(modelName, f) and int(pred) >= predictionsConsidered:
-                files.append(int(pred))
-        except: 
-            continue
-    files.sort()
-    try:
-        return pd.read_csv(f'{folder+modelName}_{files[0]}.csv')
-    except Exception as X:
-        print("EXC - There are no files related to the specified model [{modelName}] with at least {predictionsConsidered} words predicted")
-    
 score_functions = {
     PERSPECTIVE: getPerspectiveScore,
     HURTLEX: getHurtLexScore,

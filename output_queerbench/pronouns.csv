@@ -1,0 +1,13 @@
+,BERT_base,BERT_large,RoBERTa_base
+AFINN binary,8.06,7.29,9.83
+HurtLex binary,0.4,1.22,0.4
+Perspective binary,0.54,2.45,0.54
+QueerBench binary,3.0,3.65,3.59
+AFINN neo,0.28,0.16,1.65
+HurtLex neo,3.41,2.44,5.24
+Perspective neo,2.12,3.49,6.87
+QueerBench neo,1.93,2.02,4.58
+AFINN neutral,2.64,3.58,3.2
+HurtLex neutral,3.77,1.88,1.88
+Perspective neutral,2.83,1.88,2.83
+QueerBench neutral,3.08,2.44,2.63

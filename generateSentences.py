@@ -11,7 +11,8 @@ def preExistingFile(modelName, numPrediction):
     startingFrom, dicSentences = 0, {
         TYPE: [],
         TEMPLATE: [],
-        GENERATED: []
+        GENERATED: [],
+        CATEGORY: []
     }
     
     #If the file exists already in the output folder then take that one   
@@ -31,10 +32,10 @@ def preExistingFile(modelName, numPrediction):
 
 def initializeGemini(modelName = None):
     genai.configure(api_key=API.GENAI_API_KEY)
-    return genai.GenerativeModel(GEMINI_FLASH)
+    return genai.GenerativeModel(GEMINI_FLASH), None
 
 def initializeGPT(modelName = None):
-    return OpenAI(api_key=API.OPENAI_API_KEY)
+    return OpenAI(api_key=API.OPENAI_API_KEY), None
 
 def initializeBERT(modelName):
     val = MODEL_NAME[modelName]
@@ -182,8 +183,6 @@ def generateSentences(modelName, numPrediction):
     print("๏ File generated!!")
 
 predictionNumber = 1
-# chosenModel = chooseModel()
-# generateSentences(MODEL_LIST[chosenModel], predictionNumber)
-MODEL_LIST = [ALBERT_BASE, ALBERT_LARGE, BERTTWEET_BASE, BERTTWEET_LARGE]
+MODEL_LIST = [GPT4]
 for mod in MODEL_LIST:
     generateSentences(mod, predictionNumber)

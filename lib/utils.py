@@ -34,7 +34,22 @@ def getListFromString(text):
     text = lib.re.sub(r'\[', '', text)
     return list(map(str, text.split(",")))
 
-
+def getCSVFile(folder, modelName, predictionsConsidered):
+    files = []
+    for f in lib.os.listdir(folder):
+        pred = f.replace(f'{modelName}_', '').replace('.csv', '')
+        try:
+            if lib.re.match(modelName, f) and int(pred) >= predictionsConsidered:
+                files.append(int(pred))
+        except: 
+            continue
+    files.sort()
+    try:
+        return lib.pd.read_csv(f'{folder+modelName}_{files[0]}.csv')
+    except Exception as X:
+        print("EXC - There are no files related to the specified model [{modelName}] with at least {predictionsConsidered} words predicted")
+    
+    
 def truncate(float_number, decimal_places = 2):
     multiplier = 10 ** decimal_places
     try:

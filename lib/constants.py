@@ -104,11 +104,11 @@ MODEL_NAME = {
     ALBERT_LARGE: 'albert-large-v2',
     BERTTWEET_BASE: 'vinai/bertweet-base',
     BERTTWEET_LARGE: 'vinai/bertweet-large',
-    # LLAMA3 : 'llama3',
-    # LLAMA3_70B : 'llama3:70b',
-    # GEMMA2 : 'gemma2',
-    # GEMMA2_27B : 'gemma2:27b',
-    # GPT4 : 'gpt-4o'
+    LLAMA3 : 'llama3',
+    LLAMA3_70B : 'llama3:70b',
+    GEMMA2 : 'gemma2',
+    GEMMA2_27B : 'gemma2:27b',
+    GPT4 : 'gpt-4o'
 }
 
 # TEMPLATE MAP
@@ -125,9 +125,13 @@ NONQUEER = 'non-queer'
 ORIENTATION = 'orientation'
 IDENTITY = 'identity'
 OTHER = 'other'
+AVERAGE = 'Avg'
+STDEV = 'St. Dev'
+TOTAL = 'Tot'
+QUEERBENCH = 'QueerBench'
 SUBJECT_TYPE = [NOUN, PRONOUN]
 PRONOUN_CATEGORIES = [BINARY, NEO, NEUTRAL]
-NOUN_TYPES = [QUEER, NONQUEER]
+NOUN_TYPES = [QUEER, NONQUEER, NEUTRAL]
 NOUN_CATEGORIES = [ORIENTATION, IDENTITY, OTHER]
 
 #Evaluation Tools
