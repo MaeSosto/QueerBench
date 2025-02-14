@@ -15,17 +15,11 @@ import numpy as np
 import statistics as st
 # import API
 # import time
-# import seaborn as sb 
 # from time import sleep
 # np.random.seed(42)
 # import math
 # import ast
-# import matplotlib.pyplot as plt
-# from matplotlib.transforms import Affine2D
-# from matplotlib.pyplot import savefig
-# from matplotlib.colors import LinearSegmentedColormap
 
-logging.getLogger('googleapicliet.discovery_cache').setLevel(logging.ERROR)
 logging.basicConfig(level=logging.INFO)# OPTIONAL
 print(f"PyTorch version: {torch.__version__}")
 
@@ -36,10 +30,6 @@ print(f"Using device: {device}")
 # # Global Variables
 #Data Source
 DATA_SOURCE = 'dataset_source/'
-TEMPLATE_PATH = DATA_SOURCE + 'template.csv'
-NOUNS_PATH = DATA_SOURCE + 'nouns.csv'
-PRONOUNS_PATH = DATA_SOURCE + 'pronouns.csv'
-TEMPLATE_PATH_COMPLETE = DATA_SOURCE + 'template_complete.csv'
 OUTPUT_TEMPLATE = 'output_template/'
 OUTPUT_QUEERBENCH = 'output_queerbench/'
 OUTPUT_GRAPHS = 'output_graphs/'
@@ -64,18 +54,6 @@ PERSON = 'person'
 TEMPLATE = 'template'
 GENERATED = 'generated'
 
-LLAMA3 = 'llama3'
-LLAMA3_70B = 'llama3:70b'
-GEMMA2 = 'gemma2'
-GEMMA2_27B = 'gemma2:27b'
-GPT4 = 'gpt-4o'
-
-LLAMA3 = 'llama3'
-LLAMA3_70B = 'llama3:70b'
-GEMMA2 = 'gemma2'
-GEMMA2_27B = 'gemma2:27b'
-GPT4 = 'gpt-4o'
-
 # MODELS
 BERT_BASE = 'BERT_base'
 BERT_LARGE = 'BERT_large'
@@ -94,22 +72,6 @@ GEMINI_FLASH = "gemini-1.5-flash"
 GPT4_MINI = 'gpt-4o-mini'
 GPT4 = 'gpt-4o'
 MODEL_LIST = [BERT_BASE, BERT_LARGE, ROBERTA_BASE, ROBERTA_LARGE, ALBERT_BASE, ALBERT_LARGE, BERTTWEET_BASE, BERTTWEET_LARGE, LLAMA3, LLAMA3_70B, GEMMA2, GEMMA2_27B, GPT4_MINI]
-
-MODEL_NAME = {
-    BERT_BASE: 'bert-base-uncased',
-    BERT_LARGE: 'bert-large-uncased',
-    ROBERTA_BASE: 'roberta-base',
-    ROBERTA_LARGE: 'roberta-large',
-    ALBERT_BASE: 'albert-base-v2',
-    ALBERT_LARGE: 'albert-large-v2',
-    BERTTWEET_BASE: 'vinai/bertweet-base',
-    BERTTWEET_LARGE: 'vinai/bertweet-large',
-    LLAMA3 : 'llama3',
-    LLAMA3_70B : 'llama3:70b',
-    GEMMA2 : 'gemma2',
-    GEMMA2_27B : 'gemma2:27b',
-    GPT4 : 'gpt-4o'
-}
 
 # TEMPLATE MAP
 NOUN = 'noun'

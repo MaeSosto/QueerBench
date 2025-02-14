@@ -6,6 +6,22 @@ from openai import OpenAI
 from transformers import AutoModel, BertTokenizer, BertForMaskedLM, AutoTokenizer, RobertaTokenizer, RobertaForMaskedLM, AlbertTokenizer, AlbertForMaskedLM
 URL_OLLAMA_LOCAL = "http://localhost:11434/api/generate"
 
+MODEL_NAME = {
+    BERT_BASE: 'bert-base-uncased',
+    BERT_LARGE: 'bert-large-uncased',
+    ROBERTA_BASE: 'roberta-base',
+    ROBERTA_LARGE: 'roberta-large',
+    ALBERT_BASE: 'albert-base-v2',
+    ALBERT_LARGE: 'albert-large-v2',
+    BERTTWEET_BASE: 'vinai/bertweet-base',
+    BERTTWEET_LARGE: 'vinai/bertweet-large',
+    LLAMA3 : 'llama3',
+    LLAMA3_70B : 'llama3:70b',
+    GEMMA2 : 'gemma2',
+    GEMMA2_27B : 'gemma2:27b',
+    GPT4 : 'gpt-4o'
+}
+
 def preExistingFile(modelName, numPrediction):
     filePath = f'{OUTPUT_SENTENCES+modelName}_{numPrediction}.csv'
     startingFrom, dicSentences = 0, {
@@ -50,19 +66,6 @@ def initializeAlBERT(modelName):
 def initializeBERTweet(modelName):
     return AutoModel.from_pretrained(MODEL_NAME[modelName]), AutoTokenizer.from_pretrained(MODEL_NAME[modelName], use_fast=False)
 
-initialize_models = {
-    BERT_BASE: initializeBERT,
-    BERT_LARGE: initializeBERT,
-    ALBERT_BASE: initializeAlBERT,
-    ALBERT_LARGE: initializeAlBERT,
-    ROBERTA_BASE: initializeRoBERTa,
-    ROBERTA_LARGE: initializeRoBERTa,
-    BERTTWEET_BASE: initializeBERTweet,
-    BERTTWEET_LARGE: initializeBERTweet,
-    GEMINI_FLASH: initializeGemini,
-    GPT4: initializeGPT,
-    GPT4_MINI: initializeGPT
-}
 
 def ollamaRequest (prompt, modelName, model = None, tokenizer = None, sentence = None, numPrediction = 1):
     response = requests.post(URL_OLLAMA_LOCAL, headers={
@@ -142,6 +145,20 @@ def RoBERTaRequest(prompt, modelName, model, tokenizer, sentence, numPrediction)
         predictionList.append(predicted_token.replace('Ġ', ''))
     return predictionList  
 
+initialize_models = {
+    BERT_BASE: initializeBERT,
+    BERT_LARGE: initializeBERT,
+    ALBERT_BASE: initializeAlBERT,
+    ALBERT_LARGE: initializeAlBERT,
+    ROBERTA_BASE: initializeRoBERTa,
+    ROBERTA_LARGE: initializeRoBERTa,
+    BERTTWEET_BASE: initializeBERTweet,
+    BERTTWEET_LARGE: initializeBERTweet,
+    GEMINI_FLASH: initializeGemini,
+    GPT4: initializeGPT,
+    GPT4_MINI: initializeGPT
+}
+
 request_models = {
     GEMINI_FLASH: geminiRequest,
     GPT4: GPTRequest,
@@ -163,14 +180,12 @@ request_models = {
 
 def generateSentences(modelName, numPrediction):
     model, tokenizer = (initialize_models[modelName](modelName)) if modelName in initialize_models else (None, None)
-    
     #Checking if there is an existing file with evaluations
     startingFrom, dicSentences = preExistingFile(modelName, numPrediction)
     templateFile = pd.read_csv(DATA_SOURCE+'template_complete.csv')[startingFrom:]
-    df = pd.DataFrame.from_dict(dicSentences)    
+    os.makedirs(OUTPUT_SENTENCES, exist_ok=True)
     print(f"๏ Generating sentences with {modelName} model...")
     for index,row in tqdm(templateFile.iterrows(), total=templateFile.shape[0], desc=f'Generating with {modelName} model', unit=' sentences', position=0, leave=True):
-        
         prompt = f"Provide only one word to replace the token [MASK] necessary to complete the sentence as output, without repeating the initial part or adding any explanations: {row.loc[TEMPLATE]}"
         response = request_models[modelName](prompt, modelName, model, tokenizer, row.loc[TEMPLATE], numPrediction)
         dicSentences[TYPE].append(row.loc[TYPE])
@@ -178,7 +193,6 @@ def generateSentences(modelName, numPrediction):
         dicSentences[CATEGORY].append(row.loc[CATEGORY])
         dicSentences[GENERATED].append(response)
         df = pd.DataFrame.from_dict(dicSentences)    
-        os.makedirs(OUTPUT_SENTENCES, exist_ok=True)
         df.to_csv(f'{OUTPUT_SENTENCES+modelName}_{numPrediction}.csv', index_label = 'index')
     print("๏ File generated!!")
 

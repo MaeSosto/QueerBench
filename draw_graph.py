@@ -1,10 +1,9 @@
 from lib.constants import *
-
-#KEY
-PRONOUN = 'pronoun'
-NOUN = 'noun'
-SCORE = 'Score'
-TOT = 'Tot'
+import matplotlib.pyplot as plt
+from matplotlib.transforms import Affine2D
+from matplotlib.pyplot import savefig
+from matplotlib.colors import LinearSegmentedColormap
+import seaborn as sb 
 
 NEO_ROW = 0
 NEUTRAL_ROW = 1
@@ -34,7 +33,7 @@ def afinnGraph(csv, type, models):
     plt.ylabel("Average score", fontsize=FONT_SIZE_BIG)
     plt.xlabel("Model", fontsize=FONT_SIZE_BIG)
     plt.setp(ax.xaxis.get_majorticklabels(), ha='right')
-    if models == MODELS:
+    if models == MODEL_LIST:
         plt.xticks(rotation=30, rotation_mode="anchor", fontsize = FONT_SIZE)
     else:
         plt.xticks(rotation=20, rotation_mode="anchor", fontsize = FONT_SIZE)
@@ -45,8 +44,7 @@ def afinnGraph(csv, type, models):
         y1_neo, y2_neutral, y3_binary= [], [], []
         yerr1_neo, yerr2_neutral, yerr3_binary = [], [], []
         df_neo, df_neutral, df_binary = [], [], []
-        for i in range(len(MODELS)):
-            modelName = list(MODELS.keys())[i]
+        for modelName in MODEL_LIST:
             x.append(modelName)
             y1_neo.append    (csv.loc[modelName, AFINN+ " (orig) "+ NEO])
             y2_neutral.append(csv.loc[modelName, AFINN+ " (orig) "+ NEUTRAL])
@@ -75,8 +73,7 @@ def afinnGraph(csv, type, models):
         y1_queer, y2_non= [], []
         yerr1_queer, yerr2_non= [], []
         df_queer, df_non = [], []
-        for i in range(len(MODELS)):
-            modelName = list(MODELS.keys())[i]
+        for modelName in MODEL_LIST:
             x.append(modelName)
             y1_queer.append(csv.loc[modelName, AFINN+ " (orig) "+QUEER])
             y2_non.append(csv.loc[modelName, AFINN+ " (orig) "+NONQUEER])
@@ -100,7 +97,7 @@ def afinnGraph(csv, type, models):
     plt.grid(linestyle = '--', linewidth = 0.5)
     plt.tight_layout()
     os.makedirs(OUTPUT_GRAPHS, exist_ok=True)
-    if models == MODELS:
+    if models == MODEL_LIST:
         plt.savefig(OUTPUT_GRAPHS+ 'afinn_all.png', transparent=True)
     else: 
         plt.savefig(OUTPUT_GRAPHS+type+'/afinn_'+ (models[0].replace("base[1]", "")) +'.png', transparent=True)
@@ -113,7 +110,7 @@ def perspective_graph(models, type):
     plt.setp(ax1.xaxis.get_majorticklabels(), ha='right')
     ax1.set_xlabel('Model', fontsize = FONT_SIZE_BIG)
     ax1.set_ylabel('Perspective score %', fontsize = FONT_SIZE_BIG)
-    if models == MODELS:
+    if models == MODEL_LIST:
         plt.xticks(rotation=30, rotation_mode="anchor", fontsize = FONT_SIZE)
     else:
         plt.xticks(rotation=20, rotation_mode="anchor", fontsize = FONT_SIZE)
@@ -130,12 +127,12 @@ def perspective_graph(models, type):
             csv = pd.read_csv(OUTPUT_GRAPHS+m+'_perspective.csv', sep=";", index_col=[0])
             x_labels.append(m)
             for ind, d in enumerate(data1):
-                d.append((csv.loc[QUEER][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[QUEER][TOT])*100)
+                d.append((csv.loc[QUEER][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[QUEER][TOTAL])*100)
             for ind, d in enumerate(data2):
-                d.append((csv.loc[NONQUEER][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[NONQUEER][TOT])*100)
+                d.append((csv.loc[NONQUEER][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[NONQUEER][TOTAL])*100)
 
-            line_data1.append(csv.loc[QUEER][SCORE])
-            line_data2.append(csv.loc[NONQUEER][SCORE])
+            line_data1.append(csv.loc[QUEER][QUEERBENCH])
+            line_data2.append(csv.loc[NONQUEER][QUEERBENCH])
 
         for d in data1:
             bar_data1.append(d)
@@ -169,15 +166,15 @@ def perspective_graph(models, type):
             x_labels.append(m)
 
             for ind, d in enumerate(data1):
-                d.append((csv.loc[NEO][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[NEO][TOT])*100)
+                d.append((csv.loc[NEO][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[NEO][TOTAL])*100)
             for ind, d in enumerate(data2):
-                d.append((csv.loc[NEUTRAL][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[NEUTRAL][TOT])*100)
+                d.append((csv.loc[NEUTRAL][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[NEUTRAL][TOTAL])*100)
             for ind, d in enumerate(data3):
-                d.append((csv.loc[BINARY][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[BINARY][TOT])*100)
+                d.append((csv.loc[BINARY][PERSPECTIVE_CATEGORIES[ind]]/csv.loc[BINARY][TOTAL])*100)
                 
-            line_data1.append(csv.loc[NEO][SCORE])
-            line_data2.append(csv.loc[NEUTRAL][SCORE])
-            line_data3.append(csv.loc[BINARY][SCORE])
+            line_data1.append(csv.loc[NEO][QUEERBENCH])
+            line_data2.append(csv.loc[NEUTRAL][QUEERBENCH])
+            line_data3.append(csv.loc[BINARY][QUEERBENCH])
 
         for d in data1:
             bar_data1.append(d)
@@ -214,7 +211,7 @@ def perspective_graph(models, type):
     ax1.set_xticklabels(x_labels)
     ax1.legend(ncol = NCOL)
     plt.tight_layout()
-    if models == MODELS:
+    if models == MODEL_LIST:
         plt.savefig('../graphs/pronoun/'+ 'perspective_all.png', transparent=True)
     else: 
         plt.savefig('../graphs/'+type+'/perspective_'+ (models[0].replace("base[1]", "")) +'.png', transparent=True)
@@ -227,8 +224,8 @@ def hurtlex_graph(csv, type, models):
     fig, ax1 = plt.subplots()
     plt.setp(ax1.xaxis.get_majorticklabels(), ha='right')
     ax1.set_xlabel('Model', fontsize = FONT_SIZE_BIG)
-    ax1.set_ylabel('Hurtlex score %', fontsize = FONT_SIZE_BIG)
-    if models == MODELS:
+    ax1.set_ylabel('Hurtlex QUEERBENCH %', fontsize = FONT_SIZE_BIG)
+    if models == MODEL_LIST:
         plt.xticks(rotation=30, rotation_mode="anchor", fontsize = FONT_SIZE)
     else:
         plt.xticks(rotation=20, rotation_mode="anchor", fontsize = FONT_SIZE)
@@ -242,13 +239,12 @@ def hurtlex_graph(csv, type, models):
         an_non, re_non, cds_non, asf_non, asm_non, om_non, qas_non, pa_non, pr_non, is_non = [], [], [], [], [], [], [], [], [], []
         data1 = [an_queer, re_queer, cds_queer, asf_queer, asm_queer, om_queer, qas_queer, pa_queer, pr_queer, is_queer]
         data2 = [an_non, re_non, cds_non, asf_non, asm_non, om_non, qas_non, pa_non, pr_non, is_non]
-        for i in range(len(MODELS)):
-            modelName = list(MODELS.keys())[i]
+        for modelName in MODEL_LIST:
             x_labels.append(modelName)
             # for ind, d in enumerate(data1):
-            #     d.append((csv.loc[QUEER][HURTLEX_CATEGORIES[ind]]/csv.loc[QUEER][TOT])*100)
+            #     d.append((csv.loc[QUEER][HURTLEX_CATEGORIES[ind]]/csv.loc[QUEER][TOTAL])*100)
             # for ind, d in enumerate(data2):
-            #     d.append((csv.loc[NONQUEER][HURTLEX_CATEGORIES[ind]]/csv.loc[NONQUEER][TOT])*100)
+            #     d.append((csv.loc[NONQUEER][HURTLEX_CATEGORIES[ind]]/csv.loc[NONQUEER][TOTAL])*100)
 
             line_data1.append(csv.loc[modelName, HURTLEX + QUEER])
             line_data2.append(csv.loc[modelName, HURTLEX + NONQUEER])
@@ -287,15 +283,15 @@ def hurtlex_graph(csv, type, models):
             csv = pd.read_csv(OUTPUT_GRAPHS+modelName+'_hurtlex.csv', sep=";", index_col=[0])
             x_labels.append(modelName)
             for ind, d in enumerate(data1):
-                d.append((csv.loc[NEO][HURTLEX_CATEGORIES[ind]]/csv.loc[NEO][TOT])*100)
+                d.append((csv.loc[NEO][HURTLEX_CATEGORIES[ind]]/csv.loc[NEO][TOTAL])*100)
             for ind, d in enumerate(data2):
-                d.append((csv.loc[NEUTRAL][HURTLEX_CATEGORIES[ind]]/csv.loc[NEUTRAL][TOT])*100)
+                d.append((csv.loc[NEUTRAL][HURTLEX_CATEGORIES[ind]]/csv.loc[NEUTRAL][TOTAL])*100)
             for ind, d in enumerate(data3):
-                d.append((csv.loc[BINARY][HURTLEX_CATEGORIES[ind]]/csv.loc[BINARY][TOT])*100)
+                d.append((csv.loc[BINARY][HURTLEX_CATEGORIES[ind]]/csv.loc[BINARY][TOTAL])*100)
 
-            line_data1.append(csv.loc[NEO][SCORE])
-            line_data2.append(csv.loc[NEUTRAL][SCORE])
-            line_data3.append(csv.loc[BINARY][SCORE])
+            line_data1.append(csv.loc[NEO][QUEERBENCH])
+            line_data2.append(csv.loc[NEUTRAL][QUEERBENCH])
+            line_data3.append(csv.loc[BINARY][QUEERBENCH])
 
         for d in data1:
             bar_data1.append(d)
@@ -332,7 +328,7 @@ def hurtlex_graph(csv, type, models):
     ax1.set_xticklabels(x_labels)
     ax1.legend(ncol = NCOL)
     plt.tight_layout()
-    if models == MODELS:
+    if models == MODEL_LIST:
         plt.savefig('../graphs/pronoun/'+ 'hurtlex_all.png', transparent=True)
     else: 
         plt.savefig('../graphs/'+type+'/hurtlex_'+ (models[0].replace("base[1]", "")) +'.png', transparent=True)
@@ -367,8 +363,8 @@ def partial_graph(type, test):
 #     for t in testType:
 #         partial_graph(t, True)
 #         partial_graph(t, False)
-#         for i in tqdm(range(len(MODELS))):
-#             modelName = list(MODELS.keys())[i]
+#         for i in tqdm(range(len(MODEL_LIST))):
+#             modelName = list(MODEL_LIST.keys())[i]
 #             afinn_graph(modelName, t)
 #             hurtlex_graph(modelName, t)
 #             perspective_graph(modelName, t)
@@ -395,6 +391,6 @@ for t in testType:
 #         partial_graph(t, True)
 #         partial_graph(t, False)
     
-    afinnGraph(fileTemplate, t, MODELS)
-    hurtlex_graph(fileTemplate, t, MODELS)
+    afinnGraph(fileTemplate, t, MODEL_LIST)
+    hurtlex_graph(fileTemplate, t, MODEL_LIST)
     #perspective_graph(modelName, t)

@@ -48,11 +48,4 @@ def getCSVFile(folder, modelName, predictionsConsidered):
         return lib.pd.read_csv(f'{folder+modelName}_{files[0]}.csv')
     except Exception as X:
         print("EXC - There are no files related to the specified model [{modelName}] with at least {predictionsConsidered} words predicted")
-    
-    
-def truncate(float_number, decimal_places = 2):
-    multiplier = 10 ** decimal_places
-    try:
-        return int(float_number * multiplier) / multiplier
-    except:
-        return 0
+

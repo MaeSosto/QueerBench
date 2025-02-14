@@ -1,13 +1,13 @@
-,BERT_base,BERT_large,RoBERTa_base
-AFINN binary,8.06,7.29,9.83
-HurtLex binary,0.4,1.22,0.4
-Perspective binary,0.54,2.45,0.54
-QueerBench binary,3.0,3.65,3.59
-AFINN neo,0.28,0.16,1.65
-HurtLex neo,3.41,2.44,5.24
-Perspective neo,2.12,3.49,6.87
-QueerBench neo,1.93,2.02,4.58
-AFINN neutral,2.64,3.58,3.2
-HurtLex neutral,3.77,1.88,1.88
-Perspective neutral,2.83,1.88,2.83
-QueerBench neutral,3.08,2.44,2.63
+,BERT_base,BERT_large,RoBERTa_base,RoBERTa_large,AlBERT_base,AlBERT_large,BERTweet_base,BERTweet_large,llama3,llama3:70b,gemma2,gemma2:27b,gpt-4o-mini
+AFINN binary,8.06,7.3,9.84,9.73,5.41,7.38,0.0,0.0,7.1,8.44,8.11,9.32,11.5
+HurtLex binary,0.41,1.23,0.41,0.27,2.32,0.82,0.0,0.0,1.64,0.0,0.14,0.14,0.55
+Perspective binary,0.55,2.46,0.55,0.27,1.09,1.37,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+QueerBench binary,3.01,3.66,3.6,3.42,2.94,3.19,0.0,0.0,2.91,2.81,2.75,3.15,4.02
+AFINN neo,0.28,0.16,1.66,0.35,1.63,1.03,0.0,0.0,2.47,2.24,4.76,4.08,8.41
+HurtLex neo,3.42,2.45,5.24,2.56,1.52,2.33,0.0,0.0,1.17,1.75,0.23,1.75,0.0
+Perspective neo,2.12,3.5,6.88,3.85,0.12,5.94,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+QueerBench neo,1.94,2.04,4.59,2.25,1.09,3.1,0.0,0.0,1.21,1.33,1.66,1.94,2.8
+AFINN neutral,2.64,3.58,3.21,2.64,4.91,3.4,0.0,0.0,5.09,4.91,6.6,6.98,9.06
+HurtLex neutral,3.77,1.89,1.89,2.83,1.89,0.94,0.0,0.0,0.94,0.94,0.0,0.94,0.94
+Perspective neutral,2.83,1.89,2.83,0.0,0.0,2.83,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+QueerBench neutral,3.08,2.45,2.64,1.82,2.27,2.39,0.0,0.0,2.01,1.95,2.2,2.64,3.33

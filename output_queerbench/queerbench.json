@@ -1,0 +1,5636 @@
+{
+    "BERT_base": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1993,
+                "2.0": 111,
+                "1.0": 22,
+                "-3.0": 32,
+                "3.0": 62,
+                "-1.0": 23,
+                "-2.0": 39,
+                "Avg": 0.1,
+                "St. Dev": 0.8,
+                "AFINN": 2.04
+            },
+            "queer": {
+                "0.0": 4493,
+                "2.0": 273,
+                "1.0": 29,
+                "-3.0": 57,
+                "3.0": 192,
+                "-5.0": 2,
+                "-1.0": 64,
+                "-2.0": 84,
+                "Avg": 0.14,
+                "St. Dev": 0.84,
+                "AFINN": 2.84
+            },
+            "queer orientation": {
+                "2.0": 102,
+                "0.0": 1480,
+                "-1.0": 14,
+                "3.0": 61,
+                "-3.0": 14,
+                "1.0": 4,
+                "-2.0": 25,
+                "Avg": 0.17,
+                "St. Dev": 0.82,
+                "AFINN": 3.35
+            },
+            "queer other": {
+                "0.0": 1020,
+                "2.0": 60,
+                "-3.0": 11,
+                "3.0": 69,
+                "-5.0": 2,
+                "-1.0": 27,
+                "1.0": 3,
+                "-2.0": 20,
+                "Avg": 0.18,
+                "St. Dev": 0.94,
+                "AFINN": 3.63
+            },
+            "non-queer identity": {
+                "0.0": 691,
+                "2.0": 53,
+                "1.0": 8,
+                "3.0": 33,
+                "-3.0": 9,
+                "-1.0": 19,
+                "-2.0": 21,
+                "4.0": 1,
+                "-5.0": 1,
+                "Avg": 0.15,
+                "St. Dev": 0.93,
+                "AFINN": 2.97
+            },
+            "non-queer": {
+                "0.0": 1158,
+                "2.0": 82,
+                "1.0": 11,
+                "-3.0": 17,
+                "3.0": 51,
+                "4.0": 2,
+                "-1.0": 25,
+                "-2.0": 31,
+                "-5.0": 1,
+                "Avg": 0.14,
+                "St. Dev": 0.91,
+                "AFINN": 2.8
+            },
+            "non-queer other": {
+                "2.0": 15,
+                "0.0": 180,
+                "1.0": 2,
+                "-3.0": 7,
+                "4.0": 1,
+                "-1.0": 6,
+                "-2.0": 5,
+                "3.0": 8,
+                "Avg": 0.1,
+                "St. Dev": 1.03,
+                "AFINN": 2.05
+            },
+            "non-queer orientation": {
+                "0.0": 287,
+                "2.0": 14,
+                "3.0": 10,
+                "1.0": 1,
+                "-3.0": 1,
+                "-2.0": 5,
+                "Avg": 0.14,
+                "St. Dev": 0.73,
+                "AFINN": 2.89
+            },
+            "neutral general": {
+                "0.0": 607,
+                "2.0": 127,
+                "3.0": 115,
+                "1.0": 7,
+                "-1.0": 5,
+                "-2.0": 16,
+                "-3.0": 9,
+                "4.0": 6,
+                "Avg": 0.63,
+                "St. Dev": 1.27,
+                "AFINN": 12.69
+            },
+            "neutral": {
+                "0.0": 3223,
+                "2.0": 236,
+                "1.0": 60,
+                "3.0": 219,
+                "-1.0": 64,
+                "4.0": 12,
+                "-2.0": 70,
+                "-3.0": 36,
+                "-5.0": 2,
+                "Avg": 0.23,
+                "St. Dev": 0.97,
+                "AFINN": 4.67
+            },
+            "neutral societal": {
+                "0.0": 1102,
+                "1.0": 23,
+                "2.0": 40,
+                "4.0": 3,
+                "-1.0": 35,
+                "-2.0": 23,
+                "3.0": 64,
+                "-3.0": 12,
+                "Avg": 0.15,
+                "St. Dev": 0.88,
+                "AFINN": 2.92
+            },
+            "neutral role": {
+                "0.0": 1033,
+                "1.0": 15,
+                "2.0": 46,
+                "-1.0": 9,
+                "3.0": 17,
+                "-2.0": 20,
+                "-3.0": 9,
+                "4.0": 3,
+                "Avg": 0.08,
+                "St. Dev": 0.7,
+                "AFINN": 1.63
+            },
+            "neutral family": {
+                "0.0": 481,
+                "1.0": 15,
+                "2.0": 23,
+                "-1.0": 15,
+                "-3.0": 6,
+                "3.0": 23,
+                "-2.0": 11,
+                "-5.0": 2,
+                "Avg": 0.11,
+                "St. Dev": 0.9,
+                "AFINN": 2.26
+            },
+            "pronoun binary": {
+                "0.0": 539,
+                "-2.0": 31,
+                "1.0": 14,
+                "2.0": 60,
+                "-1.0": 9,
+                "3.0": 77,
+                "4.0": 1,
+                "-3.0": 1,
+                "Avg": 0.4,
+                "St. Dev": 1.16,
+                "AFINN": 8.06
+            },
+            "pronoun": {
+                "0.0": 1348,
+                "2.0": 87,
+                "-2.0": 58,
+                "1.0": 19,
+                "-1.0": 58,
+                "-3.0": 3,
+                "3.0": 106,
+                "4.0": 1,
+                "-5.0": 7,
+                "Avg": 0.18,
+                "St. Dev": 1.03,
+                "AFINN": 3.52
+            },
+            "pronoun neutral": {
+                "0.0": 86,
+                "2.0": 6,
+                "-1.0": 3,
+                "-2.0": 4,
+                "3.0": 6,
+                "-5.0": 1,
+                "Avg": 0.13,
+                "St. Dev": 1.07,
+                "AFINN": 2.64
+            },
+            "pronoun neo": {
+                "2.0": 21,
+                "0.0": 723,
+                "-2.0": 23,
+                "-1.0": 46,
+                "1.0": 5,
+                "-3.0": 2,
+                "3.0": 23,
+                "-5.0": 6,
+                "Avg": -0.01,
+                "St. Dev": 0.84,
+                "AFINN": 0.28
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "pr": 16,
+                "an": 7,
+                "asm": 2,
+                "asf": 1,
+                "pa": 2,
+                "cds": 1,
+                "om": 1,
+                "HurtLex": 1.31
+            },
+            "queer": {
+                "Tot": 5194,
+                "om": 57,
+                "pr": 39,
+                "an": 14,
+                "asm": 14,
+                "cds": 4,
+                "asf": 1,
+                "pa": 2,
+                "HurtLex": 2.52
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 36,
+                "pr": 11,
+                "asm": 7,
+                "cds": 1,
+                "an": 2,
+                "HurtLex": 3.35
+            },
+            "queer other": {
+                "Tot": 1212,
+                "om": 20,
+                "pr": 12,
+                "asm": 5,
+                "an": 5,
+                "cds": 2,
+                "HurtLex": 3.63
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "pr": 4,
+                "HurtLex": 0.48
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 11,
+                "pr": 7,
+                "asm": 1,
+                "qas": 1,
+                "an": 1,
+                "HurtLex": 1.52
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "an": 1,
+                "HurtLex": 0.45
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 11,
+                "pr": 3,
+                "asm": 1,
+                "qas": 1,
+                "HurtLex": 5.03
+            },
+            "neutral general": {
+                "Tot": 892,
+                "an": 4,
+                "asm": 1,
+                "HurtLex": 0.56
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 3,
+                "pr": 3,
+                "asf": 1,
+                "pa": 1,
+                "an": 21,
+                "asm": 1,
+                "qas": 6,
+                "HurtLex": 0.92
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "cds": 3,
+                "asf": 1,
+                "pa": 1,
+                "an": 7,
+                "qas": 3,
+                "HurtLex": 1.15
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "pr": 1,
+                "an": 5,
+                "HurtLex": 0.52
+            },
+            "neutral family": {
+                "Tot": 576,
+                "an": 5,
+                "pr": 2,
+                "qas": 3,
+                "HurtLex": 1.74
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "asm": 2,
+                "an": 1,
+                "HurtLex": 0.41
+            },
+            "pronoun": {
+                "Tot": 1687,
+                "asm": 2,
+                "qas": 2,
+                "cds": 10,
+                "an": 15,
+                "pr": 7,
+                "HurtLex": 2.13
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "qas": 2,
+                "an": 1,
+                "pr": 1,
+                "HurtLex": 3.77
+            },
+            "pronoun neo": {
+                "Tot": 849,
+                "cds": 10,
+                "an": 13,
+                "pr": 6,
+                "HurtLex": 3.42
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 50,
+                "TOXICITY": 60,
+                "INSULT": 22,
+                "THREAT": 16,
+                "Perspective": 6.49
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 128,
+                "TOXICITY": 143,
+                "INSULT": 53,
+                "PROFANITY": 2,
+                "THREAT": 35,
+                "Perspective": 6.95
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "TOXICITY": 46,
+                "IDENTITY_ATTACK": 47,
+                "INSULT": 18,
+                "THREAT": 11,
+                "Perspective": 7.18
+            },
+            "queer other": {
+                "Tot": 1212,
+                "TOXICITY": 37,
+                "INSULT": 13,
+                "IDENTITY_ATTACK": 31,
+                "PROFANITY": 2,
+                "THREAT": 8,
+                "Perspective": 7.51
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 15,
+                "INSULT": 6,
+                "THREAT": 8,
+                "IDENTITY_ATTACK": 4,
+                "PROFANITY": 1,
+                "Perspective": 4.07
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 22,
+                "TOXICITY": 28,
+                "INSULT": 9,
+                "THREAT": 12,
+                "PROFANITY": 1,
+                "Perspective": 5.22
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 3,
+                "TOXICITY": 4,
+                "THREAT": 3,
+                "Perspective": 4.46
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 15,
+                "TOXICITY": 9,
+                "INSULT": 3,
+                "THREAT": 1,
+                "Perspective": 8.81
+            },
+            "neutral general": {
+                "Tot": 892,
+                "THREAT": 7,
+                "TOXICITY": 6,
+                "Perspective": 1.46
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 36,
+                "INSULT": 10,
+                "THREAT": 28,
+                "PROFANITY": 3,
+                "Perspective": 1.96
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "THREAT": 11,
+                "TOXICITY": 13,
+                "INSULT": 3,
+                "PROFANITY": 1,
+                "Perspective": 2.15
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "TOXICITY": 7,
+                "INSULT": 2,
+                "THREAT": 6,
+                "Perspective": 1.3
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 10,
+                "THREAT": 4,
+                "INSULT": 5,
+                "PROFANITY": 2,
+                "Perspective": 3.65
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "TOXICITY": 2,
+                "INSULT": 2,
+                "Perspective": 0.55
+            },
+            "pronoun": {
+                "Tot": 1687,
+                "TOXICITY": 9,
+                "INSULT": 9,
+                "PROFANITY": 7,
+                "Perspective": 1.48
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "PROFANITY": 1,
+                "Perspective": 2.83
+            },
+            "pronoun neo": {
+                "Tot": 849,
+                "TOXICITY": 6,
+                "INSULT": 6,
+                "PROFANITY": 6,
+                "Perspective": 2.12
+            }
+        }
+    },
+    "BERT_large": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1967,
+                "1.0": 14,
+                "2.0": 96,
+                "-3.0": 20,
+                "-1.0": 51,
+                "3.0": 70,
+                "-2.0": 55,
+                "4.0": 9,
+                "Avg": 0.1,
+                "St. Dev": 0.84,
+                "AFINN": 2.02
+            },
+            "queer": {
+                "0.0": 4464,
+                "1.0": 33,
+                "2.0": 232,
+                "-3.0": 37,
+                "-5.0": 2,
+                "-1.0": 97,
+                "3.0": 186,
+                "-2.0": 117,
+                "4.0": 26,
+                "Avg": 0.14,
+                "St. Dev": 0.87,
+                "AFINN": 2.72
+            },
+            "queer orientation": {
+                "0.0": 1499,
+                "1.0": 8,
+                "2.0": 72,
+                "-1.0": 20,
+                "3.0": 57,
+                "-2.0": 30,
+                "-3.0": 5,
+                "4.0": 9,
+                "Avg": 0.16,
+                "St. Dev": 0.8,
+                "AFINN": 3.11
+            },
+            "queer other": {
+                "0.0": 998,
+                "1.0": 11,
+                "-3.0": 12,
+                "-5.0": 2,
+                "2.0": 64,
+                "-1.0": 26,
+                "-2.0": 32,
+                "4.0": 8,
+                "3.0": 59,
+                "Avg": 0.17,
+                "St. Dev": 1.0,
+                "AFINN": 3.5
+            },
+            "non-queer identity": {
+                "1.0": 6,
+                "0.0": 698,
+                "-5.0": 2,
+                "-1.0": 25,
+                "3.0": 33,
+                "2.0": 41,
+                "-2.0": 22,
+                "4.0": 9,
+                "Avg": 0.17,
+                "St. Dev": 0.95,
+                "AFINN": 3.44
+            },
+            "non-queer": {
+                "1.0": 14,
+                "0.0": 1147,
+                "-3.0": 7,
+                "-5.0": 5,
+                "2.0": 72,
+                "-1.0": 32,
+                "-2.0": 36,
+                "3.0": 53,
+                "4.0": 12,
+                "Avg": 0.16,
+                "St. Dev": 0.97,
+                "AFINN": 3.12
+            },
+            "non-queer other": {
+                "1.0": 5,
+                "0.0": 174,
+                "-5.0": 3,
+                "2.0": 17,
+                "-1.0": 5,
+                "-2.0": 10,
+                "3.0": 6,
+                "-3.0": 3,
+                "4.0": 1,
+                "Avg": 0.05,
+                "St. Dev": 1.14,
+                "AFINN": 1.07
+            },
+            "non-queer orientation": {
+                "0.0": 275,
+                "-3.0": 4,
+                "3.0": 14,
+                "1.0": 3,
+                "2.0": 14,
+                "-2.0": 4,
+                "-1.0": 2,
+                "4.0": 2,
+                "Avg": 0.19,
+                "St. Dev": 0.91,
+                "AFINN": 3.71
+            },
+            "neutral general": {
+                "0.0": 619,
+                "3.0": 89,
+                "2.0": 113,
+                "-3.0": 2,
+                "1.0": 12,
+                "-1.0": 13,
+                "-2.0": 25,
+                "4.0": 19,
+                "Avg": 0.57,
+                "St. Dev": 1.26,
+                "AFINN": 11.48
+            },
+            "neutral": {
+                "0.0": 3220,
+                "1.0": 67,
+                "3.0": 181,
+                "2.0": 249,
+                "-3.0": 17,
+                "4.0": 26,
+                "-1.0": 86,
+                "-2.0": 75,
+                "-5.0": 1,
+                "Avg": 0.23,
+                "St. Dev": 0.94,
+                "AFINN": 4.69
+            },
+            "neutral societal": {
+                "0.0": 1108,
+                "2.0": 59,
+                "1.0": 23,
+                "4.0": 4,
+                "-1.0": 29,
+                "3.0": 48,
+                "-2.0": 21,
+                "-3.0": 10,
+                "Avg": 0.15,
+                "St. Dev": 0.84,
+                "AFINN": 3.07
+            },
+            "neutral role": {
+                "0.0": 1010,
+                "1.0": 23,
+                "2.0": 53,
+                "-1.0": 20,
+                "-3.0": 3,
+                "3.0": 24,
+                "-2.0": 18,
+                "4.0": 1,
+                "Avg": 0.12,
+                "St. Dev": 0.7,
+                "AFINN": 2.43
+            },
+            "neutral family": {
+                "0.0": 483,
+                "1.0": 9,
+                "3.0": 20,
+                "-1.0": 24,
+                "2.0": 24,
+                "4.0": 2,
+                "-2.0": 11,
+                "-3.0": 2,
+                "-5.0": 1,
+                "Avg": 0.12,
+                "St. Dev": 0.85,
+                "AFINN": 2.36
+            },
+            "pronoun binary": {
+                "0.0": 549,
+                "3.0": 62,
+                "-5.0": 3,
+                "1.0": 10,
+                "-1.0": 4,
+                "-2.0": 35,
+                "2.0": 51,
+                "4.0": 16,
+                "-3.0": 2,
+                "Avg": 0.36,
+                "St. Dev": 1.26,
+                "AFINN": 7.3
+            },
+            "pronoun": {
+                "0.0": 1376,
+                "3.0": 87,
+                "-5.0": 12,
+                "1.0": 22,
+                "-1.0": 64,
+                "4.0": 19,
+                "-2.0": 42,
+                "2.0": 70,
+                "-3.0": 4,
+                "Avg": 0.16,
+                "St. Dev": 1.06,
+                "AFINN": 3.29
+            },
+            "pronoun neutral": {
+                "0.0": 88,
+                "-1.0": 4,
+                "-2.0": 3,
+                "2.0": 6,
+                "4.0": 2,
+                "3.0": 3,
+                "Avg": 0.18,
+                "St. Dev": 0.95,
+                "AFINN": 3.58
+            },
+            "pronoun neo": {
+                "0.0": 739,
+                "-5.0": 9,
+                "-1.0": 56,
+                "1.0": 12,
+                "4.0": 1,
+                "2.0": 13,
+                "3.0": 22,
+                "-2.0": 4,
+                "-3.0": 2,
+                "Avg": -0.01,
+                "St. Dev": 0.83,
+                "AFINN": 0.16
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "pr": 57,
+                "om": 4,
+                "qas": 1,
+                "cds": 4,
+                "an": 5,
+                "re": 3,
+                "HurtLex": 3.24
+            },
+            "queer": {
+                "Tot": 5194,
+                "om": 61,
+                "pr": 147,
+                "cds": 26,
+                "qas": 1,
+                "asm": 7,
+                "an": 12,
+                "re": 8,
+                "asf": 1,
+                "HurtLex": 5.06
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 39,
+                "pr": 50,
+                "asm": 6,
+                "cds": 11,
+                "re": 3,
+                "an": 3,
+                "asf": 1,
+                "HurtLex": 6.65
+            },
+            "queer other": {
+                "Tot": 1212,
+                "pr": 40,
+                "om": 18,
+                "cds": 11,
+                "asm": 1,
+                "an": 4,
+                "re": 2,
+                "HurtLex": 6.27
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "pr": 20,
+                "cds": 1,
+                "an": 1,
+                "HurtLex": 2.63
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 14,
+                "pr": 34,
+                "cds": 4,
+                "asm": 1,
+                "an": 4,
+                "HurtLex": 4.14
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "pr": 5,
+                "cds": 1,
+                "an": 2,
+                "HurtLex": 3.57
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 14,
+                "pr": 9,
+                "cds": 2,
+                "asm": 1,
+                "an": 1,
+                "HurtLex": 8.49
+            },
+            "neutral general": {
+                "Tot": 892,
+                "pa": 2,
+                "pr": 7,
+                "asm": 1,
+                "HurtLex": 1.12
+            },
+            "neutral": {
+                "Tot": 3922,
+                "pa": 3,
+                "pr": 27,
+                "cds": 3,
+                "asf": 3,
+                "asm": 1,
+                "an": 6,
+                "HurtLex": 1.1
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "pr": 5,
+                "pa": 1,
+                "asf": 2,
+                "an": 4,
+                "HurtLex": 0.92
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "pr": 12,
+                "cds": 3,
+                "an": 2,
+                "HurtLex": 1.48
+            },
+            "neutral family": {
+                "Tot": 576,
+                "pr": 3,
+                "asf": 1,
+                "HurtLex": 0.69
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "pr": 4,
+                "asm": 3,
+                "an": 2,
+                "HurtLex": 1.23
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "pr": 15,
+                "asm": 3,
+                "an": 13,
+                "re": 1,
+                "HurtLex": 1.89
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "an": 2,
+                "HurtLex": 1.89
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "pr": 11,
+                "an": 9,
+                "re": 1,
+                "HurtLex": 2.45
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "TOXICITY": 98,
+                "INSULT": 58,
+                "IDENTITY_ATTACK": 89,
+                "THREAT": 7,
+                "Perspective": 11.04
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 207,
+                "TOXICITY": 244,
+                "INSULT": 155,
+                "PROFANITY": 4,
+                "THREAT": 11,
+                "Perspective": 11.96
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 75,
+                "TOXICITY": 84,
+                "INSULT": 54,
+                "THREAT": 2,
+                "Perspective": 12.65
+            },
+            "queer other": {
+                "Tot": 1212,
+                "TOXICITY": 62,
+                "INSULT": 43,
+                "PROFANITY": 4,
+                "IDENTITY_ATTACK": 43,
+                "THREAT": 2,
+                "Perspective": 12.71
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 31,
+                "INSULT": 29,
+                "IDENTITY_ATTACK": 12,
+                "PROFANITY": 2,
+                "Perspective": 8.85
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 40,
+                "TOXICITY": 60,
+                "INSULT": 47,
+                "PROFANITY": 5,
+                "Perspective": 11.03
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "TOXICITY": 9,
+                "INSULT": 7,
+                "PROFANITY": 3,
+                "IDENTITY_ATTACK": 4,
+                "Perspective": 10.27
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 24,
+                "TOXICITY": 20,
+                "INSULT": 11,
+                "Perspective": 17.3
+            },
+            "neutral general": {
+                "Tot": 892,
+                "TOXICITY": 9,
+                "INSULT": 8,
+                "PROFANITY": 1,
+                "Perspective": 2.02
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 41,
+                "INSULT": 37,
+                "PROFANITY": 5,
+                "THREAT": 6,
+                "Perspective": 2.27
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "TOXICITY": 13,
+                "INSULT": 11,
+                "THREAT": 3,
+                "PROFANITY": 3,
+                "Perspective": 2.3
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "TOXICITY": 13,
+                "INSULT": 14,
+                "THREAT": 1,
+                "Perspective": 2.43
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 6,
+                "INSULT": 4,
+                "THREAT": 2,
+                "PROFANITY": 1,
+                "Perspective": 2.26
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "TOXICITY": 9,
+                "INSULT": 6,
+                "PROFANITY": 3,
+                "Perspective": 2.46
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "TOXICITY": 21,
+                "INSULT": 17,
+                "PROFANITY": 12,
+                "Perspective": 2.95
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "Perspective": 1.89
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "TOXICITY": 11,
+                "INSULT": 10,
+                "PROFANITY": 9,
+                "Perspective": 3.5
+            }
+        }
+    },
+    "RoBERTa_base": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1886,
+                "1.0": 12,
+                "2.0": 58,
+                "-1.0": 50,
+                "-3.0": 55,
+                "-4.0": 8,
+                "-5.0": 1,
+                "-2.0": 94,
+                "4.0": 5,
+                "3.0": 113,
+                "Avg": 0.02,
+                "St. Dev": 1.03,
+                "AFINN": 0.41
+            },
+            "queer": {
+                "0.0": 4207,
+                "1.0": 71,
+                "2.0": 150,
+                "-1.0": 121,
+                "-5.0": 5,
+                "-3.0": 111,
+                "-4.0": 20,
+                "-2.0": 221,
+                "4.0": 19,
+                "3.0": 269,
+                "Avg": 0.05,
+                "St. Dev": 1.06,
+                "AFINN": 0.97
+            },
+            "queer orientation": {
+                "0.0": 1364,
+                "1.0": 25,
+                "-1.0": 29,
+                "-3.0": 42,
+                "-4.0": 9,
+                "-2.0": 83,
+                "2.0": 56,
+                "4.0": 7,
+                "3.0": 85,
+                "Avg": 0.04,
+                "St. Dev": 1.09,
+                "AFINN": 0.74
+            },
+            "queer other": {
+                "0.0": 957,
+                "-1.0": 42,
+                "-5.0": 4,
+                "-4.0": 3,
+                "-3.0": 14,
+                "1.0": 34,
+                "2.0": 36,
+                "-2.0": 44,
+                "3.0": 71,
+                "4.0": 7,
+                "Avg": 0.12,
+                "St. Dev": 1.08,
+                "AFINN": 2.36
+            },
+            "non-queer identity": {
+                "0.0": 709,
+                "-4.0": 7,
+                "1.0": 8,
+                "-3.0": 13,
+                "-2.0": 17,
+                "2.0": 21,
+                "3.0": 52,
+                "-1.0": 6,
+                "4.0": 1,
+                "-5.0": 2,
+                "Avg": 0.11,
+                "St. Dev": 1.05,
+                "AFINN": 2.22
+            },
+            "non-queer": {
+                "0.0": 1142,
+                "1.0": 28,
+                "-4.0": 13,
+                "-3.0": 27,
+                "-5.0": 3,
+                "-2.0": 37,
+                "2.0": 35,
+                "3.0": 74,
+                "-1.0": 16,
+                "4.0": 3,
+                "Avg": 0.07,
+                "St. Dev": 1.07,
+                "AFINN": 1.36
+            },
+            "non-queer other": {
+                "0.0": 161,
+                "1.0": 15,
+                "-3.0": 4,
+                "-4.0": 1,
+                "-5.0": 1,
+                "-2.0": 11,
+                "3.0": 10,
+                "-1.0": 8,
+                "2.0": 11,
+                "4.0": 2,
+                "Avg": 0.11,
+                "St. Dev": 1.17,
+                "AFINN": 2.14
+            },
+            "non-queer orientation": {
+                "0.0": 272,
+                "-4.0": 5,
+                "-3.0": 10,
+                "1.0": 5,
+                "-1.0": 2,
+                "-2.0": 9,
+                "3.0": 12,
+                "2.0": 3,
+                "Avg": -0.07,
+                "St. Dev": 1.02,
+                "AFINN": 1.45
+            },
+            "neutral general": {
+                "0.0": 584,
+                "2.0": 108,
+                "1.0": 31,
+                "3.0": 95,
+                "-3.0": 10,
+                "4.0": 27,
+                "-2.0": 26,
+                "-1.0": 11,
+                "Avg": 0.61,
+                "St. Dev": 1.35,
+                "AFINN": 12.26
+            },
+            "neutral": {
+                "0.0": 3138,
+                "2.0": 226,
+                "1.0": 98,
+                "3.0": 203,
+                "-3.0": 68,
+                "-2.0": 109,
+                "-4.0": 2,
+                "-1.0": 49,
+                "4.0": 29,
+                "Avg": 0.2,
+                "St. Dev": 1.04,
+                "AFINN": 4.06
+            },
+            "neutral societal": {
+                "0.0": 1080,
+                "1.0": 34,
+                "-3.0": 31,
+                "-2.0": 33,
+                "2.0": 45,
+                "3.0": 59,
+                "-1.0": 18,
+                "4.0": 2,
+                "Avg": 0.1,
+                "St. Dev": 0.96,
+                "AFINN": 2.03
+            },
+            "neutral role": {
+                "0.0": 979,
+                "-3.0": 16,
+                "1.0": 20,
+                "-4.0": 1,
+                "2.0": 50,
+                "3.0": 34,
+                "-1.0": 17,
+                "-2.0": 35,
+                "Avg": 0.07,
+                "St. Dev": 0.85,
+                "AFINN": 1.44
+            },
+            "neutral family": {
+                "0.0": 495,
+                "1.0": 13,
+                "-3.0": 11,
+                "2.0": 23,
+                "3.0": 15,
+                "-2.0": 15,
+                "-1.0": 3,
+                "-4.0": 1,
+                "Avg": 0.06,
+                "St. Dev": 0.85,
+                "AFINN": 1.18
+            },
+            "pronoun binary": {
+                "0.0": 548,
+                "-3.0": 2,
+                "2.0": 52,
+                "1.0": 11,
+                "-1.0": 3,
+                "-2.0": 18,
+                "-4.0": 2,
+                "3.0": 86,
+                "4.0": 10,
+                "Avg": 0.49,
+                "St. Dev": 1.23,
+                "AFINN": 9.84
+            },
+            "pronoun": {
+                "0.0": 1372,
+                "2.0": 70,
+                "3.0": 109,
+                "-3.0": 26,
+                "1.0": 27,
+                "-5.0": 7,
+                "-4.0": 3,
+                "-1.0": 29,
+                "4.0": 12,
+                "-2.0": 41,
+                "Avg": 0.18,
+                "St. Dev": 1.11,
+                "AFINN": 3.61
+            },
+            "pronoun neutral": {
+                "0.0": 88,
+                "-3.0": 2,
+                "-2.0": 4,
+                "3.0": 6,
+                "2.0": 4,
+                "4.0": 1,
+                "1.0": 1,
+                "Avg": 0.16,
+                "St. Dev": 1.06,
+                "AFINN": 3.21
+            },
+            "pronoun neo": {
+                "0.0": 736,
+                "2.0": 14,
+                "3.0": 17,
+                "-3.0": 22,
+                "1.0": 15,
+                "-5.0": 7,
+                "-4.0": 1,
+                "-1.0": 26,
+                "4.0": 1,
+                "-2.0": 19,
+                "Avg": -0.08,
+                "St. Dev": 0.92,
+                "AFINN": 1.66
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "asm": 9,
+                "pr": 4,
+                "cds": 2,
+                "qas": 1,
+                "asf": 3,
+                "om": 8,
+                "an": 8,
+                "HurtLex": 1.53
+            },
+            "queer": {
+                "Tot": 5194,
+                "an": 18,
+                "pr": 16,
+                "asm": 25,
+                "om": 38,
+                "cds": 5,
+                "qas": 2,
+                "asf": 4,
+                "HurtLex": 2.08
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "an": 9,
+                "asm": 13,
+                "pr": 5,
+                "om": 22,
+                "asf": 1,
+                "cds": 2,
+                "HurtLex": 3.06
+            },
+            "queer other": {
+                "Tot": 1212,
+                "pr": 7,
+                "asm": 3,
+                "om": 8,
+                "cds": 1,
+                "qas": 1,
+                "an": 1,
+                "HurtLex": 1.73
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "pr": 7,
+                "asm": 7,
+                "om": 2,
+                "an": 1,
+                "HurtLex": 2.03
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 35,
+                "cds": 3,
+                "pr": 10,
+                "asm": 13,
+                "an": 6,
+                "HurtLex": 4.86
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "cds": 3,
+                "asm": 1,
+                "pr": 1,
+                "om": 4,
+                "an": 2,
+                "HurtLex": 4.91
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 29,
+                "asm": 5,
+                "pr": 2,
+                "an": 3,
+                "HurtLex": 12.26
+            },
+            "neutral general": {
+                "Tot": 892,
+                "om": 2,
+                "an": 3,
+                "cds": 1,
+                "HurtLex": 0.67
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 12,
+                "asm": 1,
+                "asf": 1,
+                "om": 17,
+                "an": 14,
+                "HurtLex": 1.15
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "cds": 5,
+                "om": 15,
+                "an": 5,
+                "HurtLex": 1.92
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "asm": 1,
+                "cds": 4,
+                "an": 5,
+                "HurtLex": 0.87
+            },
+            "neutral family": {
+                "Tot": 576,
+                "cds": 2,
+                "asf": 1,
+                "an": 1,
+                "HurtLex": 0.69
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "om": 1,
+                "an": 1,
+                "asm": 1,
+                "HurtLex": 0.41
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "pr": 7,
+                "asm": 2,
+                "an": 17,
+                "asf": 9,
+                "om": 13,
+                "cds": 2,
+                "HurtLex": 2.95
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "om": 1,
+                "an": 1,
+                "HurtLex": 1.89
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "pr": 7,
+                "asm": 1,
+                "an": 15,
+                "asf": 9,
+                "om": 11,
+                "cds": 2,
+                "HurtLex": 5.24
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "TOXICITY": 79,
+                "INSULT": 45,
+                "IDENTITY_ATTACK": 91,
+                "PROFANITY": 27,
+                "THREAT": 6,
+                "Perspective": 10.87
+            },
+            "queer": {
+                "Tot": 5194,
+                "TOXICITY": 222,
+                "INSULT": 133,
+                "IDENTITY_ATTACK": 224,
+                "PROFANITY": 65,
+                "THREAT": 7,
+                "Perspective": 12.53
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 87,
+                "TOXICITY": 100,
+                "INSULT": 59,
+                "PROFANITY": 27,
+                "THREAT": 1,
+                "Perspective": 16.12
+            },
+            "queer other": {
+                "Tot": 1212,
+                "INSULT": 29,
+                "IDENTITY_ATTACK": 46,
+                "TOXICITY": 43,
+                "PROFANITY": 11,
+                "Perspective": 10.64
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "IDENTITY_ATTACK": 17,
+                "TOXICITY": 24,
+                "INSULT": 18,
+                "PROFANITY": 12,
+                "Perspective": 8.49
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "TOXICITY": 53,
+                "IDENTITY_ATTACK": 59,
+                "INSULT": 30,
+                "PROFANITY": 23,
+                "THREAT": 1,
+                "Perspective": 12.05
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "TOXICITY": 8,
+                "IDENTITY_ATTACK": 6,
+                "INSULT": 4,
+                "PROFANITY": 3,
+                "THREAT": 1,
+                "Perspective": 9.82
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 36,
+                "TOXICITY": 21,
+                "INSULT": 8,
+                "PROFANITY": 8,
+                "Perspective": 22.96
+            },
+            "neutral general": {
+                "Tot": 892,
+                "INSULT": 7,
+                "TOXICITY": 5,
+                "PROFANITY": 4,
+                "THREAT": 1,
+                "Perspective": 1.91
+            },
+            "neutral": {
+                "Tot": 3922,
+                "INSULT": 47,
+                "TOXICITY": 45,
+                "PROFANITY": 31,
+                "THREAT": 9,
+                "Perspective": 3.37
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "TOXICITY": 20,
+                "INSULT": 20,
+                "PROFANITY": 14,
+                "THREAT": 4,
+                "Perspective": 4.45
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "TOXICITY": 11,
+                "INSULT": 12,
+                "PROFANITY": 8,
+                "THREAT": 1,
+                "Perspective": 2.78
+            },
+            "neutral family": {
+                "Tot": 576,
+                "INSULT": 8,
+                "TOXICITY": 9,
+                "PROFANITY": 5,
+                "THREAT": 3,
+                "Perspective": 4.34
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "TOXICITY": 1,
+                "INSULT": 2,
+                "PROFANITY": 1,
+                "Perspective": 0.55
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "TOXICITY": 22,
+                "INSULT": 22,
+                "PROFANITY": 22,
+                "Perspective": 3.89
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "PROFANITY": 1,
+                "Perspective": 2.83
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "TOXICITY": 20,
+                "INSULT": 19,
+                "PROFANITY": 20,
+                "Perspective": 6.88
+            }
+        }
+    },
+    "RoBERTa_large": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1922,
+                "-3.0": 28,
+                "-5.0": 1,
+                "1.0": 19,
+                "-4.0": 1,
+                "2.0": 74,
+                "4.0": 2,
+                "3.0": 111,
+                "-1.0": 31,
+                "-2.0": 93,
+                "Avg": 0.09,
+                "St. Dev": 0.94,
+                "AFINN": 1.74
+            },
+            "queer": {
+                "0.0": 4311,
+                "1.0": 52,
+                "-3.0": 53,
+                "-5.0": 2,
+                "-4.0": 3,
+                "2.0": 183,
+                "4.0": 6,
+                "3.0": 293,
+                "-1.0": 73,
+                "-2.0": 218,
+                "Avg": 0.12,
+                "St. Dev": 0.98,
+                "AFINN": 2.43
+            },
+            "queer orientation": {
+                "0.0": 1387,
+                "1.0": 19,
+                "-3.0": 24,
+                "2.0": 64,
+                "4.0": 4,
+                "3.0": 111,
+                "-1.0": 17,
+                "-2.0": 73,
+                "-4.0": 1,
+                "Avg": 0.15,
+                "St. Dev": 1.04,
+                "AFINN": 3.02
+            },
+            "queer other": {
+                "0.0": 1002,
+                "-4.0": 1,
+                "1.0": 14,
+                "-5.0": 1,
+                "2.0": 45,
+                "3.0": 71,
+                "-2.0": 52,
+                "-1.0": 25,
+                "-3.0": 1,
+                "Avg": 0.15,
+                "St. Dev": 0.95,
+                "AFINN": 2.9
+            },
+            "non-queer identity": {
+                "0.0": 703,
+                "1.0": 7,
+                "-4.0": 5,
+                "-5.0": 1,
+                "3.0": 40,
+                "-1.0": 13,
+                "-2.0": 30,
+                "2.0": 29,
+                "-3.0": 8,
+                "Avg": 0.08,
+                "St. Dev": 0.97,
+                "AFINN": 1.51
+            },
+            "non-queer": {
+                "0.0": 1136,
+                "2.0": 53,
+                "1.0": 32,
+                "-4.0": 7,
+                "-5.0": 2,
+                "3.0": 64,
+                "4.0": 4,
+                "-1.0": 19,
+                "-2.0": 44,
+                "-3.0": 17,
+                "Avg": 0.11,
+                "St. Dev": 1.0,
+                "AFINN": 2.18
+            },
+            "non-queer other": {
+                "0.0": 169,
+                "2.0": 14,
+                "1.0": 16,
+                "-4.0": 1,
+                "-5.0": 1,
+                "3.0": 6,
+                "4.0": 4,
+                "-1.0": 3,
+                "-2.0": 5,
+                "-3.0": 5,
+                "Avg": 0.18,
+                "St. Dev": 1.14,
+                "AFINN": 3.66
+            },
+            "non-queer orientation": {
+                "0.0": 264,
+                "1.0": 9,
+                "3.0": 18,
+                "-2.0": 9,
+                "-4.0": 1,
+                "-1.0": 3,
+                "2.0": 10,
+                "-3.0": 4,
+                "Avg": 0.14,
+                "St. Dev": 0.97,
+                "AFINN": 2.89
+            },
+            "neutral general": {
+                "0.0": 619,
+                "3.0": 80,
+                "-3.0": 9,
+                "2.0": 135,
+                "1.0": 5,
+                "4.0": 9,
+                "-2.0": 20,
+                "-1.0": 15,
+                "Avg": 0.53,
+                "St. Dev": 1.23,
+                "AFINN": 10.52
+            },
+            "neutral": {
+                "0.0": 3214,
+                "3.0": 210,
+                "1.0": 52,
+                "-3.0": 51,
+                "2.0": 248,
+                "4.0": 17,
+                "-1.0": 47,
+                "-2.0": 83,
+                "Avg": 0.22,
+                "St. Dev": 0.99,
+                "AFINN": 4.49
+            },
+            "neutral societal": {
+                "0.0": 1077,
+                "1.0": 36,
+                "-3.0": 21,
+                "3.0": 72,
+                "2.0": 49,
+                "4.0": 6,
+                "-1.0": 17,
+                "-2.0": 24,
+                "Avg": 0.19,
+                "St. Dev": 0.97,
+                "AFINN": 3.78
+            },
+            "neutral role": {
+                "0.0": 1022,
+                "-3.0": 7,
+                "1.0": 7,
+                "2.0": 43,
+                "3.0": 41,
+                "4.0": 2,
+                "-1.0": 9,
+                "-2.0": 21,
+                "Avg": 0.13,
+                "St. Dev": 0.79,
+                "AFINN": 2.64
+            },
+            "neutral family": {
+                "0.0": 496,
+                "-3.0": 14,
+                "2.0": 21,
+                "3.0": 17,
+                "1.0": 4,
+                "-2.0": 18,
+                "-1.0": 6,
+                "Avg": 0.02,
+                "St. Dev": 0.88,
+                "AFINN": 0.45
+            },
+            "pronoun binary": {
+                "0.0": 524,
+                "2.0": 83,
+                "3.0": 80,
+                "-1.0": 3,
+                "-2.0": 23,
+                "-3.0": 8,
+                "1.0": 7,
+                "4.0": 4,
+                "Avg": 0.49,
+                "St. Dev": 1.24,
+                "AFINN": 9.73
+            },
+            "pronoun": {
+                "0.0": 1355,
+                "-1.0": 28,
+                "2.0": 103,
+                "-3.0": 31,
+                "1.0": 16,
+                "-2.0": 49,
+                "3.0": 104,
+                "4.0": 10,
+                "Avg": 0.21,
+                "St. Dev": 1.07,
+                "AFINN": 4.19
+            },
+            "pronoun neutral": {
+                "0.0": 85,
+                "-2.0": 6,
+                "-1.0": 2,
+                "3.0": 7,
+                "-3.0": 1,
+                "2.0": 5,
+                "Avg": 0.13,
+                "St. Dev": 1.05,
+                "AFINN": 2.64
+            },
+            "pronoun neo": {
+                "0.0": 746,
+                "-1.0": 23,
+                "2.0": 15,
+                "-3.0": 22,
+                "1.0": 9,
+                "4.0": 6,
+                "3.0": 17,
+                "-2.0": 20,
+                "Avg": -0.02,
+                "St. Dev": 0.85,
+                "AFINN": 0.35
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "pr": 5,
+                "asm": 7,
+                "cds": 6,
+                "om": 5,
+                "an": 3,
+                "HurtLex": 1.14
+            },
+            "queer": {
+                "Tot": 5194,
+                "om": 40,
+                "pr": 21,
+                "asm": 41,
+                "cds": 16,
+                "is": 1,
+                "an": 5,
+                "HurtLex": 2.39
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 28,
+                "pr": 11,
+                "asm": 30,
+                "cds": 7,
+                "is": 1,
+                "an": 2,
+                "HurtLex": 4.65
+            },
+            "queer other": {
+                "Tot": 1212,
+                "asm": 4,
+                "pr": 5,
+                "om": 7,
+                "cds": 3,
+                "HurtLex": 1.57
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "pr": 6,
+                "asm": 6,
+                "om": 2,
+                "cds": 1,
+                "HurtLex": 1.79
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 22,
+                "asm": 15,
+                "pr": 12,
+                "pa": 1,
+                "cds": 1,
+                "HurtLex": 3.7
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "om": 10,
+                "asm": 1,
+                "pr": 1,
+                "pa": 1,
+                "HurtLex": 5.8
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "pr": 5,
+                "asm": 8,
+                "om": 10,
+                "HurtLex": 7.23
+            },
+            "neutral general": {
+                "Tot": 892,
+                "pa": 3,
+                "asf": 1,
+                "HurtLex": 0.45
+            },
+            "neutral": {
+                "Tot": 3922,
+                "pa": 7,
+                "cds": 6,
+                "asm": 1,
+                "om": 3,
+                "asf": 5,
+                "HurtLex": 0.56
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "pa": 4,
+                "cds": 4,
+                "om": 3,
+                "asf": 1,
+                "HurtLex": 0.92
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 2,
+                "asm": 1,
+                "asf": 1,
+                "HurtLex": 0.35
+            },
+            "neutral family": {
+                "Tot": 576,
+                "asf": 2,
+                "HurtLex": 0.35
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "asm": 1,
+                "om": 1,
+                "HurtLex": 0.27
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "qas": 6,
+                "asm": 6,
+                "om": 4,
+                "an": 10,
+                "asf": 1,
+                "HurtLex": 1.59
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "asm": 2,
+                "an": 1,
+                "HurtLex": 2.83
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "qas": 6,
+                "om": 3,
+                "an": 9,
+                "asf": 1,
+                "asm": 3,
+                "HurtLex": 2.56
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "TOXICITY": 53,
+                "INSULT": 29,
+                "IDENTITY_ATTACK": 38,
+                "PROFANITY": 7,
+                "Perspective": 5.57
+            },
+            "queer": {
+                "Tot": 5194,
+                "TOXICITY": 139,
+                "INSULT": 69,
+                "IDENTITY_ATTACK": 119,
+                "PROFANITY": 13,
+                "Perspective": 6.55
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 59,
+                "TOXICITY": 62,
+                "INSULT": 32,
+                "PROFANITY": 4,
+                "Perspective": 9.24
+            },
+            "queer other": {
+                "Tot": 1212,
+                "TOXICITY": 24,
+                "INSULT": 8,
+                "PROFANITY": 2,
+                "IDENTITY_ATTACK": 22,
+                "Perspective": 4.62
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 19,
+                "INSULT": 14,
+                "PROFANITY": 6,
+                "IDENTITY_ATTACK": 10,
+                "Perspective": 5.86
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 42,
+                "TOXICITY": 42,
+                "INSULT": 24,
+                "PROFANITY": 9,
+                "Perspective": 8.49
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 5,
+                "TOXICITY": 5,
+                "INSULT": 4,
+                "PROFANITY": 2,
+                "Perspective": 7.14
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 27,
+                "TOXICITY": 18,
+                "INSULT": 6,
+                "PROFANITY": 1,
+                "Perspective": 16.35
+            },
+            "neutral general": {
+                "Tot": 892,
+                "TOXICITY": 4,
+                "INSULT": 6,
+                "PROFANITY": 1,
+                "Perspective": 1.23
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 29,
+                "INSULT": 33,
+                "PROFANITY": 16,
+                "THREAT": 5,
+                "Perspective": 2.12
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "TOXICITY": 10,
+                "INSULT": 13,
+                "PROFANITY": 6,
+                "THREAT": 1,
+                "Perspective": 2.3
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "TOXICITY": 6,
+                "INSULT": 7,
+                "PROFANITY": 5,
+                "Perspective": 1.56
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 9,
+                "INSULT": 7,
+                "PROFANITY": 4,
+                "THREAT": 4,
+                "Perspective": 4.17
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "Perspective": 0.27
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "TOXICITY": 11,
+                "INSULT": 15,
+                "PROFANITY": 9,
+                "Perspective": 2.06
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "TOXICITY": 10,
+                "INSULT": 14,
+                "PROFANITY": 9,
+                "Perspective": 3.85
+            }
+        }
+    },
+    "AlBERT_base": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 2037,
+                "2.0": 86,
+                "-2.0": 88,
+                "3.0": 27,
+                "-3.0": 12,
+                "-4.0": 2,
+                "-1.0": 1,
+                "1.0": 27,
+                "4.0": 2,
+                "Avg": 0.03,
+                "St. Dev": 0.71,
+                "AFINN": 0.59
+            },
+            "queer": {
+                "0.0": 4612,
+                "-3.0": 33,
+                "2.0": 213,
+                "-2.0": 186,
+                "1.0": 63,
+                "3.0": 66,
+                "-1.0": 8,
+                "4.0": 3,
+                "-4.0": 10,
+                "Avg": 0.03,
+                "St. Dev": 0.73,
+                "AFINN": 0.69
+            },
+            "queer orientation": {
+                "0.0": 1507,
+                "-3.0": 9,
+                "1.0": 24,
+                "-2.0": 56,
+                "-4.0": 7,
+                "2.0": 70,
+                "-1.0": 3,
+                "3.0": 24,
+                "Avg": 0.04,
+                "St. Dev": 0.74,
+                "AFINN": 0.78
+            },
+            "queer other": {
+                "0.0": 1068,
+                "-3.0": 12,
+                "2.0": 57,
+                "-2.0": 42,
+                "-1.0": 4,
+                "3.0": 15,
+                "1.0": 12,
+                "4.0": 1,
+                "-4.0": 1,
+                "Avg": 0.04,
+                "St. Dev": 0.75,
+                "AFINN": 0.78
+            },
+            "non-queer identity": {
+                "0.0": 738,
+                "-3.0": 11,
+                "-2.0": 22,
+                "-4.0": 1,
+                "1.0": 11,
+                "2.0": 31,
+                "3.0": 20,
+                "4.0": 2,
+                "Avg": 0.07,
+                "St. Dev": 0.81,
+                "AFINN": 1.44
+            },
+            "non-queer": {
+                "0.0": 1219,
+                "-3.0": 24,
+                "-2.0": 32,
+                "1.0": 22,
+                "-4.0": 1,
+                "2.0": 53,
+                "3.0": 25,
+                "4.0": 2,
+                "Avg": 0.05,
+                "St. Dev": 0.78,
+                "AFINN": 1.03
+            },
+            "non-queer other": {
+                "0.0": 204,
+                "-3.0": 3,
+                "-2.0": 4,
+                "2.0": 8,
+                "1.0": 4,
+                "3.0": 1,
+                "Avg": 0.03,
+                "St. Dev": 0.63,
+                "AFINN": 0.54
+            },
+            "non-queer orientation": {
+                "0.0": 277,
+                "-3.0": 10,
+                "1.0": 7,
+                "-2.0": 6,
+                "2.0": 14,
+                "3.0": 4,
+                "Avg": 0.02,
+                "St. Dev": 0.82,
+                "AFINN": 0.31
+            },
+            "neutral general": {
+                "0.0": 704,
+                "3.0": 45,
+                "-1.0": 2,
+                "2.0": 100,
+                "-2.0": 13,
+                "1.0": 15,
+                "4.0": 9,
+                "-3.0": 4,
+                "Avg": 0.39,
+                "St. Dev": 1.02,
+                "AFINN": 7.76
+            },
+            "neutral": {
+                "0.0": 3425,
+                "3.0": 96,
+                "1.0": 115,
+                "-1.0": 3,
+                "2.0": 169,
+                "-2.0": 68,
+                "-3.0": 31,
+                "4.0": 15,
+                "Avg": 0.15,
+                "St. Dev": 0.78,
+                "AFINN": 2.9
+            },
+            "neutral societal": {
+                "0.0": 1150,
+                "1.0": 57,
+                "3.0": 25,
+                "-2.0": 17,
+                "2.0": 39,
+                "-3.0": 12,
+                "4.0": 2,
+                "Avg": 0.11,
+                "St. Dev": 0.7,
+                "AFINN": 2.27
+            },
+            "neutral role": {
+                "0.0": 1068,
+                "2.0": 18,
+                "3.0": 17,
+                "1.0": 21,
+                "-2.0": 20,
+                "4.0": 1,
+                "-3.0": 6,
+                "-1.0": 1,
+                "Avg": 0.05,
+                "St. Dev": 0.59,
+                "AFINN": 0.92
+            },
+            "neutral family": {
+                "0.0": 503,
+                "1.0": 22,
+                "-2.0": 18,
+                "3.0": 9,
+                "2.0": 12,
+                "4.0": 3,
+                "-3.0": 9,
+                "Avg": 0.04,
+                "St. Dev": 0.78,
+                "AFINN": 0.76
+            },
+            "pronoun binary": {
+                "0.0": 613,
+                "-3.0": 4,
+                "-2.0": 8,
+                "3.0": 36,
+                "-1.0": 1,
+                "2.0": 43,
+                "4.0": 2,
+                "1.0": 25,
+                "Avg": 0.27,
+                "St. Dev": 0.88,
+                "AFINN": 5.41
+            },
+            "pronoun": {
+                "0.0": 1493,
+                "-3.0": 6,
+                "1.0": 33,
+                "-2.0": 32,
+                "3.0": 74,
+                "2.0": 53,
+                "-1.0": 1,
+                "4.0": 4,
+                "Avg": 0.17,
+                "St. Dev": 0.81,
+                "AFINN": 3.47
+            },
+            "pronoun neutral": {
+                "0.0": 93,
+                "3.0": 6,
+                "2.0": 4,
+                "1.0": 2,
+                "-2.0": 1,
+                "Avg": 0.25,
+                "St. Dev": 0.81,
+                "AFINN": 4.91
+            },
+            "pronoun neo": {
+                "0.0": 787,
+                "1.0": 6,
+                "-2.0": 23,
+                "3.0": 32,
+                "2.0": 6,
+                "4.0": 2,
+                "-3.0": 2,
+                "Avg": 0.08,
+                "St. Dev": 0.73,
+                "AFINN": 1.63
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "pr": 42,
+                "pa": 5,
+                "om": 2,
+                "cds": 11,
+                "re": 4,
+                "is": 1,
+                "HurtLex": 2.85
+            },
+            "queer": {
+                "Tot": 5194,
+                "pr": 103,
+                "om": 64,
+                "cds": 28,
+                "pa": 6,
+                "re": 11,
+                "is": 1,
+                "HurtLex": 4.1
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 27,
+                "cds": 7,
+                "pr": 49,
+                "pa": 1,
+                "re": 5,
+                "HurtLex": 5.24
+            },
+            "queer other": {
+                "Tot": 1212,
+                "pr": 12,
+                "om": 35,
+                "cds": 10,
+                "re": 2,
+                "HurtLex": 4.87
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "pr": 13,
+                "cds": 10,
+                "re": 3,
+                "HurtLex": 3.11
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "pr": 23,
+                "cds": 11,
+                "pa": 4,
+                "om": 3,
+                "re": 5,
+                "HurtLex": 3.34
+            },
+            "non-queer other": {
+                "pr": 2,
+                "Tot": 224,
+                "pa": 1,
+                "cds": 1,
+                "re": 1,
+                "HurtLex": 2.23
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "pr": 8,
+                "pa": 3,
+                "om": 3,
+                "re": 1,
+                "HurtLex": 4.72
+            },
+            "neutral general": {
+                "Tot": 892,
+                "cds": 3,
+                "re": 1,
+                "HurtLex": 0.45
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 48,
+                "re": 4,
+                "pr": 6,
+                "HurtLex": 1.48
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "cds": 18,
+                "re": 2,
+                "pr": 4,
+                "HurtLex": 1.84
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 17,
+                "pr": 1,
+                "HurtLex": 1.56
+            },
+            "neutral family": {
+                "Tot": 576,
+                "cds": 10,
+                "re": 1,
+                "pr": 1,
+                "HurtLex": 2.08
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "cds": 11,
+                "re": 6,
+                "HurtLex": 2.32
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "cds": 24,
+                "pr": 1,
+                "re": 7,
+                "HurtLex": 1.89
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "cds": 1,
+                "re": 1,
+                "HurtLex": 1.89
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "cds": 12,
+                "pr": 1,
+                "HurtLex": 1.52
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "TOXICITY": 67,
+                "INSULT": 53,
+                "IDENTITY_ATTACK": 65,
+                "THREAT": 4,
+                "Perspective": 8.28
+            },
+            "queer": {
+                "Tot": 5194,
+                "TOXICITY": 179,
+                "INSULT": 125,
+                "IDENTITY_ATTACK": 186,
+                "THREAT": 13,
+                "Perspective": 9.68
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "TOXICITY": 70,
+                "INSULT": 53,
+                "IDENTITY_ATTACK": 75,
+                "THREAT": 7,
+                "Perspective": 12.06
+            },
+            "queer other": {
+                "Tot": 1212,
+                "TOXICITY": 42,
+                "INSULT": 19,
+                "IDENTITY_ATTACK": 46,
+                "THREAT": 2,
+                "Perspective": 8.99
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 26,
+                "INSULT": 22,
+                "IDENTITY_ATTACK": 11,
+                "PROFANITY": 2,
+                "THREAT": 3,
+                "Perspective": 7.66
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "TOXICITY": 51,
+                "INSULT": 40,
+                "IDENTITY_ATTACK": 39,
+                "PROFANITY": 2,
+                "THREAT": 4,
+                "Perspective": 9.87
+            },
+            "non-queer other": {
+                "TOXICITY": 5,
+                "Tot": 224,
+                "INSULT": 3,
+                "IDENTITY_ATTACK": 4,
+                "THREAT": 1,
+                "Perspective": 5.8
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "TOXICITY": 20,
+                "INSULT": 15,
+                "IDENTITY_ATTACK": 24,
+                "Perspective": 18.55
+            },
+            "neutral general": {
+                "Tot": 892,
+                "THREAT": 1,
+                "INSULT": 2,
+                "TOXICITY": 1,
+                "Perspective": 0.45
+            },
+            "neutral": {
+                "Tot": 3922,
+                "THREAT": 5,
+                "INSULT": 22,
+                "TOXICITY": 12,
+                "PROFANITY": 3,
+                "Perspective": 1.07
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "THREAT": 1,
+                "INSULT": 10,
+                "TOXICITY": 7,
+                "PROFANITY": 3,
+                "Perspective": 1.61
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "INSULT": 5,
+                "TOXICITY": 1,
+                "Perspective": 0.52
+            },
+            "neutral family": {
+                "Tot": 576,
+                "THREAT": 3,
+                "TOXICITY": 3,
+                "INSULT": 5,
+                "Perspective": 1.91
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "TOXICITY": 4,
+                "INSULT": 4,
+                "Perspective": 1.09
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "TOXICITY": 5,
+                "INSULT": 4,
+                "Perspective": 0.53
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "TOXICITY": 1,
+                "Perspective": 0.12
+            }
+        }
+    },
+    "AlBERT_large": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 2004,
+                "-3.0": 33,
+                "2.0": 92,
+                "1.0": 9,
+                "3.0": 57,
+                "-2.0": 73,
+                "-4.0": 2,
+                "4.0": 7,
+                "-1.0": 5,
+                "Avg": 0.06,
+                "St. Dev": 0.84,
+                "AFINN": 1.17
+            },
+            "queer": {
+                "0.0": 4556,
+                "2.0": 209,
+                "-3.0": 55,
+                "-5.0": 2,
+                "-1.0": 30,
+                "-2.0": 154,
+                "1.0": 25,
+                "3.0": 149,
+                "4.0": 10,
+                "-4.0": 4,
+                "Avg": 0.08,
+                "St. Dev": 0.83,
+                "AFINN": 1.54
+            },
+            "queer orientation": {
+                "2.0": 72,
+                "0.0": 1500,
+                "-2.0": 41,
+                "3.0": 54,
+                "1.0": 10,
+                "-4.0": 2,
+                "-1.0": 4,
+                "-3.0": 15,
+                "4.0": 2,
+                "Avg": 0.11,
+                "St. Dev": 0.82,
+                "AFINN": 2.18
+            },
+            "queer other": {
+                "0.0": 1052,
+                "-5.0": 2,
+                "-3.0": 7,
+                "-1.0": 21,
+                "2.0": 45,
+                "1.0": 6,
+                "4.0": 1,
+                "3.0": 38,
+                "-2.0": 40,
+                "Avg": 0.07,
+                "St. Dev": 0.83,
+                "AFINN": 1.35
+            },
+            "non-queer identity": {
+                "0.0": 719,
+                "-3.0": 5,
+                "-5.0": 2,
+                "2.0": 42,
+                "1.0": 9,
+                "3.0": 29,
+                "-2.0": 21,
+                "4.0": 9,
+                "Avg": 0.18,
+                "St. Dev": 0.94,
+                "AFINN": 3.56
+            },
+            "non-queer": {
+                "0.0": 1194,
+                "-3.0": 7,
+                "-5.0": 2,
+                "2.0": 70,
+                "1.0": 15,
+                "3.0": 41,
+                "-2.0": 37,
+                "-1.0": 2,
+                "4.0": 10,
+                "Avg": 0.15,
+                "St. Dev": 0.88,
+                "AFINN": 3.06
+            },
+            "non-queer other": {
+                "0.0": 192,
+                "2.0": 14,
+                "-2.0": 10,
+                "-1.0": 2,
+                "-3.0": 2,
+                "3.0": 3,
+                "4.0": 1,
+                "Avg": 0.06,
+                "St. Dev": 0.84,
+                "AFINN": 1.16
+            },
+            "non-queer orientation": {
+                "0.0": 283,
+                "1.0": 6,
+                "3.0": 9,
+                "2.0": 14,
+                "-2.0": 6,
+                "Avg": 0.15,
+                "St. Dev": 0.71,
+                "AFINN": 3.08
+            },
+            "neutral general": {
+                "0.0": 654,
+                "3.0": 48,
+                "4.0": 54,
+                "2.0": 108,
+                "-2.0": 26,
+                "-3.0": 1,
+                "-1.0": 1,
+                "Avg": 0.58,
+                "St. Dev": 1.31,
+                "AFINN": 11.66
+            },
+            "neutral": {
+                "0.0": 3381,
+                "3.0": 106,
+                "1.0": 50,
+                "-3.0": 20,
+                "2.0": 225,
+                "4.0": 73,
+                "-2.0": 60,
+                "-1.0": 7,
+                "Avg": 0.24,
+                "St. Dev": 0.91,
+                "AFINN": 4.71
+            },
+            "neutral societal": {
+                "0.0": 1153,
+                "1.0": 45,
+                "4.0": 10,
+                "2.0": 50,
+                "3.0": 21,
+                "-2.0": 15,
+                "-3.0": 7,
+                "-1.0": 1,
+                "Avg": 0.15,
+                "St. Dev": 0.73,
+                "AFINN": 3.01
+            },
+            "neutral role": {
+                "0.0": 1053,
+                "-3.0": 8,
+                "2.0": 46,
+                "3.0": 29,
+                "-1.0": 3,
+                "1.0": 1,
+                "-2.0": 12,
+                "Avg": 0.11,
+                "St. Dev": 0.69,
+                "AFINN": 2.24
+            },
+            "neutral family": {
+                "0.0": 521,
+                "1.0": 4,
+                "2.0": 21,
+                "3.0": 8,
+                "4.0": 9,
+                "-2.0": 7,
+                "-1.0": 2,
+                "-3.0": 4,
+                "Avg": 0.14,
+                "St. Dev": 0.79,
+                "AFINN": 2.71
+            },
+            "pronoun binary": {
+                "0.0": 589,
+                "-5.0": 3,
+                "1.0": 13,
+                "2.0": 55,
+                "3.0": 22,
+                "-2.0": 15,
+                "4.0": 33,
+                "-3.0": 2,
+                "Avg": 0.37,
+                "St. Dev": 1.18,
+                "AFINN": 7.38
+            },
+            "pronoun": {
+                "0.0": 1453,
+                "-5.0": 21,
+                "-1.0": 5,
+                "1.0": 21,
+                "2.0": 84,
+                "4.0": 51,
+                "3.0": 36,
+                "-2.0": 16,
+                "-3.0": 9,
+                "Avg": 0.2,
+                "St. Dev": 1.11,
+                "AFINN": 3.92
+            },
+            "pronoun neutral": {
+                "0.0": 94,
+                "2.0": 6,
+                "4.0": 2,
+                "3.0": 2,
+                "-5.0": 1,
+                "-3.0": 1,
+                "Avg": 0.17,
+                "St. Dev": 1.0,
+                "AFINN": 3.4
+            },
+            "pronoun neo": {
+                "0.0": 770,
+                "-1.0": 5,
+                "-5.0": 17,
+                "1.0": 8,
+                "2.0": 23,
+                "4.0": 16,
+                "3.0": 12,
+                "-3.0": 6,
+                "-2.0": 1,
+                "Avg": 0.05,
+                "St. Dev": 1.05,
+                "AFINN": 1.03
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "cds": 6,
+                "pr": 4,
+                "qas": 3,
+                "om": 1,
+                "re": 2,
+                "is": 2,
+                "an": 1,
+                "HurtLex": 0.83
+            },
+            "queer": {
+                "Tot": 5194,
+                "om": 101,
+                "pr": 15,
+                "cds": 11,
+                "qas": 3,
+                "pa": 1,
+                "asm": 1,
+                "re": 3,
+                "is": 2,
+                "an": 3,
+                "HurtLex": 2.7
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 64,
+                "cds": 4,
+                "pr": 6,
+                "asm": 1,
+                "re": 1,
+                "an": 1,
+                "HurtLex": 4.53
+            },
+            "queer other": {
+                "Tot": 1212,
+                "om": 36,
+                "pr": 5,
+                "pa": 1,
+                "an": 1,
+                "cds": 1,
+                "HurtLex": 3.63
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "pr": 2,
+                "cds": 3,
+                "an": 1,
+                "HurtLex": 0.72
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 17,
+                "pr": 3,
+                "cds": 5,
+                "an": 1,
+                "HurtLex": 1.89
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "pr": 1,
+                "cds": 1,
+                "HurtLex": 0.89
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 17,
+                "cds": 1,
+                "HurtLex": 5.66
+            },
+            "neutral general": {
+                "Tot": 892,
+                "pr": 1,
+                "HurtLex": 0.11
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 6,
+                "pr": 1,
+                "qas": 1,
+                "an": 4,
+                "HurtLex": 0.31
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "cds": 3,
+                "qas": 1,
+                "an": 4,
+                "HurtLex": 0.61
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 2,
+                "HurtLex": 0.17
+            },
+            "neutral family": {
+                "Tot": 576,
+                "cds": 1,
+                "HurtLex": 0.17
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "pr": 3,
+                "cds": 1,
+                "an": 2,
+                "HurtLex": 0.82
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "pr": 21,
+                "cds": 1,
+                "qas": 1,
+                "an": 4,
+                "HurtLex": 1.59
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "pr": 1,
+                "HurtLex": 0.94
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "pr": 17,
+                "qas": 1,
+                "an": 2,
+                "HurtLex": 2.33
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "TOXICITY": 49,
+                "INSULT": 26,
+                "IDENTITY_ATTACK": 69,
+                "THREAT": 5,
+                "Perspective": 6.53
+            },
+            "queer": {
+                "Tot": 5194,
+                "TOXICITY": 115,
+                "INSULT": 61,
+                "IDENTITY_ATTACK": 162,
+                "PROFANITY": 4,
+                "THREAT": 10,
+                "Perspective": 6.78
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "TOXICITY": 45,
+                "IDENTITY_ATTACK": 56,
+                "INSULT": 27,
+                "THREAT": 3,
+                "Perspective": 7.71
+            },
+            "queer other": {
+                "Tot": 1212,
+                "IDENTITY_ATTACK": 37,
+                "TOXICITY": 21,
+                "INSULT": 8,
+                "PROFANITY": 4,
+                "THREAT": 2,
+                "Perspective": 5.94
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 7,
+                "INSULT": 7,
+                "PROFANITY": 2,
+                "THREAT": 1,
+                "IDENTITY_ATTACK": 3,
+                "Perspective": 2.39
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 29,
+                "TOXICITY": 17,
+                "INSULT": 8,
+                "PROFANITY": 2,
+                "THREAT": 1,
+                "Perspective": 4.14
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 6,
+                "TOXICITY": 5,
+                "INSULT": 1,
+                "Perspective": 5.36
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 20,
+                "TOXICITY": 5,
+                "Perspective": 7.86
+            },
+            "neutral general": {
+                "Tot": 892,
+                "TOXICITY": 2,
+                "THREAT": 2,
+                "Perspective": 0.45
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 8,
+                "THREAT": 5,
+                "INSULT": 5,
+                "PROFANITY": 2,
+                "Perspective": 0.51
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "TOXICITY": 4,
+                "THREAT": 2,
+                "INSULT": 4,
+                "PROFANITY": 1,
+                "Perspective": 0.84
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "Perspective": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 2,
+                "THREAT": 1,
+                "INSULT": 1,
+                "PROFANITY": 1,
+                "Perspective": 0.87
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "TOXICITY": 3,
+                "INSULT": 4,
+                "PROFANITY": 3,
+                "Perspective": 1.37
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "TOXICITY": 21,
+                "INSULT": 22,
+                "PROFANITY": 21,
+                "Perspective": 3.77
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "PROFANITY": 1,
+                "Perspective": 2.83
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "TOXICITY": 17,
+                "INSULT": 17,
+                "PROFANITY": 17,
+                "Perspective": 5.94
+            }
+        }
+    },
+    "BERTweet_base": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 2282,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "queer": {
+                "0.0": 5194,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "queer orientation": {
+                "0.0": 1700,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "queer other": {
+                "0.0": 1212,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer identity": {
+                "0.0": 836,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer": {
+                "0.0": 1378,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer other": {
+                "0.0": 224,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer orientation": {
+                "0.0": 318,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral general": {
+                "0.0": 892,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral": {
+                "0.0": 3922,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral societal": {
+                "0.0": 1302,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral role": {
+                "0.0": 1152,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral family": {
+                "0.0": 576,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun binary": {
+                "0.0": 732,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun": {
+                "0.0": 1696,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun neutral": {
+                "0.0": 106,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun neo": {
+                "0.0": 858,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "HurtLex": 0.0
+            },
+            "queer": {
+                "Tot": 5194,
+                "HurtLex": 0.0
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "HurtLex": 0.0
+            },
+            "queer other": {
+                "Tot": 1212,
+                "HurtLex": 0.0
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "HurtLex": 0.0
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "HurtLex": 0.0
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "HurtLex": 0.0
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "HurtLex": 0.0
+            },
+            "neutral general": {
+                "Tot": 892,
+                "HurtLex": 0.0
+            },
+            "neutral": {
+                "Tot": 3922,
+                "HurtLex": 0.0
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "HurtLex": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "HurtLex": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "HurtLex": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "HurtLex": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "HurtLex": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "HurtLex": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "HurtLex": 0.0
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 11,
+                "TOXICITY": 8,
+                "Perspective": 0.83
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 31,
+                "TOXICITY": 22,
+                "INSULT": 1,
+                "Perspective": 1.04
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 12,
+                "TOXICITY": 7,
+                "INSULT": 1,
+                "Perspective": 1.18
+            },
+            "queer other": {
+                "Tot": 1212,
+                "TOXICITY": 7,
+                "IDENTITY_ATTACK": 8,
+                "Perspective": 1.24
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 1,
+                "IDENTITY_ATTACK": 2,
+                "Perspective": 0.36
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "TOXICITY": 3,
+                "IDENTITY_ATTACK": 6,
+                "Perspective": 0.65
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 1,
+                "Perspective": 0.45
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 3,
+                "TOXICITY": 2,
+                "Perspective": 1.57
+            },
+            "neutral general": {
+                "Tot": 892,
+                "Perspective": 0.0
+            },
+            "neutral": {
+                "Tot": 3922,
+                "Perspective": 0.0
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "Perspective": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "Perspective": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "Perspective": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    },
+    "BERTweet_large": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 2282,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "queer": {
+                "0.0": 5194,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "queer orientation": {
+                "0.0": 1700,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "queer other": {
+                "0.0": 1212,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer identity": {
+                "0.0": 836,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer": {
+                "0.0": 1378,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer other": {
+                "0.0": 224,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "non-queer orientation": {
+                "0.0": 318,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral general": {
+                "0.0": 892,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral": {
+                "0.0": 3922,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral societal": {
+                "0.0": 1302,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral role": {
+                "0.0": 1152,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "neutral family": {
+                "0.0": 576,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun binary": {
+                "0.0": 732,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun": {
+                "0.0": 1696,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun neutral": {
+                "0.0": 106,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            },
+            "pronoun neo": {
+                "0.0": 858,
+                "Avg": 0.0,
+                "St. Dev": 0.0,
+                "AFINN": 0.0
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "HurtLex": 0.0
+            },
+            "queer": {
+                "Tot": 5194,
+                "HurtLex": 0.0
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "HurtLex": 0.0
+            },
+            "queer other": {
+                "Tot": 1212,
+                "HurtLex": 0.0
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "HurtLex": 0.0
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "HurtLex": 0.0
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "HurtLex": 0.0
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "HurtLex": 0.0
+            },
+            "neutral general": {
+                "Tot": 892,
+                "HurtLex": 0.0
+            },
+            "neutral": {
+                "Tot": 3922,
+                "HurtLex": 0.0
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "HurtLex": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "HurtLex": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "HurtLex": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "HurtLex": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "HurtLex": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "HurtLex": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "HurtLex": 0.0
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 12,
+                "TOXICITY": 2,
+                "Perspective": 0.61
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 36,
+                "TOXICITY": 8,
+                "Perspective": 0.85
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 13,
+                "TOXICITY": 5,
+                "Perspective": 1.06
+            },
+            "queer other": {
+                "Tot": 1212,
+                "IDENTITY_ATTACK": 11,
+                "TOXICITY": 1,
+                "Perspective": 0.99
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "IDENTITY_ATTACK": 2,
+                "Perspective": 0.24
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 5,
+                "Perspective": 0.36
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "Perspective": 0.0
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 3,
+                "Perspective": 0.94
+            },
+            "neutral general": {
+                "Tot": 892,
+                "Perspective": 0.0
+            },
+            "neutral": {
+                "Tot": 3922,
+                "Perspective": 0.0
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "Perspective": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "Perspective": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "Perspective": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    },
+    "llama3": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 2064,
+                "1.0": 63,
+                "4.0": 19,
+                "2.0": 106,
+                "3.0": 20,
+                "-2.0": 2,
+                "-1.0": 8,
+                "Avg": 0.17,
+                "St. Dev": 0.63,
+                "AFINN": 3.5
+            },
+            "queer": {
+                "0.0": 4619,
+                "1.0": 187,
+                "-2.0": 17,
+                "2.0": 261,
+                "4.0": 25,
+                "3.0": 67,
+                "-3.0": 3,
+                "-1.0": 13,
+                "5.0": 2,
+                "Avg": 0.19,
+                "St. Dev": 0.65,
+                "AFINN": 3.71
+            },
+            "queer orientation": {
+                "0.0": 1481,
+                "1.0": 80,
+                "2.0": 98,
+                "-2.0": 9,
+                "3.0": 25,
+                "4.0": 1,
+                "5.0": 2,
+                "-1.0": 3,
+                "-3.0": 1,
+                "Avg": 0.2,
+                "St. Dev": 0.66,
+                "AFINN": 4.01
+            },
+            "queer other": {
+                "0.0": 1074,
+                "1.0": 44,
+                "-2.0": 6,
+                "2.0": 57,
+                "4.0": 5,
+                "3.0": 22,
+                "-3.0": 2,
+                "-1.0": 2,
+                "Avg": 0.18,
+                "St. Dev": 0.68,
+                "AFINN": 3.7
+            },
+            "non-queer identity": {
+                "0.0": 722,
+                "3.0": 24,
+                "2.0": 48,
+                "1.0": 34,
+                "4.0": 1,
+                "-2.0": 2,
+                "-1.0": 5,
+                "Avg": 0.24,
+                "St. Dev": 0.71,
+                "AFINN": 4.71
+            },
+            "non-queer": {
+                "0.0": 1143,
+                "1.0": 116,
+                "3.0": 33,
+                "2.0": 74,
+                "4.0": 1,
+                "-3.0": 1,
+                "-2.0": 4,
+                "-1.0": 6,
+                "Avg": 0.25,
+                "St. Dev": 0.7,
+                "AFINN": 5.08
+            },
+            "non-queer other": {
+                "1.0": 41,
+                "0.0": 161,
+                "3.0": 6,
+                "2.0": 15,
+                "-2.0": 1,
+                "Avg": 0.39,
+                "St. Dev": 0.75,
+                "AFINN": 7.77
+            },
+            "non-queer orientation": {
+                "0.0": 260,
+                "1.0": 41,
+                "3.0": 3,
+                "2.0": 11,
+                "-3.0": 1,
+                "-1.0": 1,
+                "-2.0": 1,
+                "Avg": 0.21,
+                "St. Dev": 0.6,
+                "AFINN": 4.15
+            },
+            "neutral general": {
+                "0.0": 720,
+                "2.0": 109,
+                "1.0": 8,
+                "3.0": 17,
+                "-3.0": 1,
+                "-2.0": 5,
+                "-1.0": 15,
+                "4.0": 11,
+                "5.0": 6,
+                "Avg": 0.36,
+                "St. Dev": 0.98,
+                "AFINN": 7.24
+            },
+            "neutral": {
+                "0.0": 3267,
+                "2.0": 361,
+                "4.0": 26,
+                "3.0": 102,
+                "-1.0": 35,
+                "-2.0": 32,
+                "1.0": 87,
+                "-3.0": 5,
+                "-4.0": 1,
+                "5.0": 6,
+                "Avg": 0.29,
+                "St. Dev": 0.86,
+                "AFINN": 5.77
+            },
+            "neutral societal": {
+                "0.0": 1082,
+                "4.0": 8,
+                "2.0": 120,
+                "3.0": 36,
+                "-1.0": 11,
+                "-2.0": 7,
+                "1.0": 36,
+                "-3.0": 1,
+                "-4.0": 1,
+                "Avg": 0.29,
+                "St. Dev": 0.84,
+                "AFINN": 5.9
+            },
+            "neutral role": {
+                "0.0": 993,
+                "2.0": 84,
+                "3.0": 29,
+                "1.0": 23,
+                "-3.0": 3,
+                "4.0": 3,
+                "-2.0": 13,
+                "-1.0": 4,
+                "Avg": 0.22,
+                "St. Dev": 0.78,
+                "AFINN": 4.36
+            },
+            "neutral family": {
+                "0.0": 472,
+                "2.0": 48,
+                "1.0": 20,
+                "4.0": 4,
+                "3.0": 20,
+                "-2.0": 7,
+                "-1.0": 5,
+                "Avg": 0.3,
+                "St. Dev": 0.87,
+                "AFINN": 6.01
+            },
+            "pronoun binary": {
+                "0.0": 593,
+                "3.0": 33,
+                "1.0": 18,
+                "2.0": 64,
+                "-3.0": 6,
+                "4.0": 9,
+                "5.0": 2,
+                "-2.0": 6,
+                "-1.0": 1,
+                "Avg": 0.36,
+                "St. Dev": 1.01,
+                "AFINN": 7.1
+            },
+            "pronoun": {
+                "0.0": 1450,
+                "3.0": 51,
+                "1.0": 45,
+                "2.0": 104,
+                "-3.0": 6,
+                "4.0": 11,
+                "5.0": 2,
+                "-2.0": 22,
+                "-1.0": 5,
+                "Avg": 0.23,
+                "St. Dev": 0.84,
+                "AFINN": 4.63
+            },
+            "pronoun neutral": {
+                "0.0": 90,
+                "1.0": 3,
+                "3.0": 2,
+                "2.0": 10,
+                "-2.0": 1,
+                "Avg": 0.25,
+                "St. Dev": 0.74,
+                "AFINN": 5.09
+            },
+            "pronoun neo": {
+                "0.0": 767,
+                "1.0": 24,
+                "2.0": 30,
+                "3.0": 16,
+                "4.0": 2,
+                "-2.0": 15,
+                "-1.0": 4,
+                "Avg": 0.12,
+                "St. Dev": 0.66,
+                "AFINN": 2.47
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "om": 2,
+                "cds": 4,
+                "HurtLex": 0.26
+            },
+            "queer": {
+                "Tot": 5194,
+                "om": 8,
+                "cds": 20,
+                "asm": 2,
+                "HurtLex": 0.58
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 6,
+                "cds": 4,
+                "asm": 2,
+                "HurtLex": 0.71
+            },
+            "queer other": {
+                "Tot": 1212,
+                "cds": 12,
+                "HurtLex": 0.99
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "cds": 3,
+                "qas": 1,
+                "om": 2,
+                "asf": 3,
+                "HurtLex": 1.08
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "cds": 6,
+                "qas": 1,
+                "om": 4,
+                "asf": 3,
+                "HurtLex": 1.02
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "cds": 1,
+                "HurtLex": 0.45
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 2,
+                "cds": 2,
+                "HurtLex": 1.26
+            },
+            "neutral general": {
+                "Tot": 892,
+                "cds": 5,
+                "pa": 5,
+                "qas": 3,
+                "asm": 2,
+                "HurtLex": 1.68
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 24,
+                "pa": 10,
+                "qas": 6,
+                "asm": 4,
+                "asf": 1,
+                "HurtLex": 1.15
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "cds": 10,
+                "pa": 2,
+                "HurtLex": 0.92
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 5,
+                "pa": 3,
+                "qas": 1,
+                "asm": 2,
+                "HurtLex": 0.95
+            },
+            "neutral family": {
+                "Tot": 576,
+                "qas": 2,
+                "cds": 4,
+                "asf": 1,
+                "HurtLex": 1.22
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "an": 4,
+                "cds": 5,
+                "pa": 2,
+                "asf": 1,
+                "HurtLex": 1.64
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "an": 13,
+                "cds": 6,
+                "pa": 2,
+                "asm": 1,
+                "asf": 1,
+                "HurtLex": 1.36
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "cds": 1,
+                "HurtLex": 0.94
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "an": 9,
+                "asm": 1,
+                "HurtLex": 1.17
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 21,
+                "TOXICITY": 12,
+                "THREAT": 1,
+                "INSULT": 4,
+                "Perspective": 1.67
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 63,
+                "TOXICITY": 38,
+                "INSULT": 10,
+                "THREAT": 1,
+                "Perspective": 2.16
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 18,
+                "TOXICITY": 11,
+                "INSULT": 4,
+                "Perspective": 1.94
+            },
+            "queer other": {
+                "Tot": 1212,
+                "IDENTITY_ATTACK": 24,
+                "TOXICITY": 15,
+                "INSULT": 2,
+                "Perspective": 3.38
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "IDENTITY_ATTACK": 2,
+                "TOXICITY": 1,
+                "Perspective": 0.36
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 15,
+                "TOXICITY": 5,
+                "INSULT": 1,
+                "Perspective": 1.52
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 2,
+                "Perspective": 0.89
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 11,
+                "TOXICITY": 4,
+                "INSULT": 1,
+                "Perspective": 5.03
+            },
+            "neutral general": {
+                "Tot": 892,
+                "Perspective": 0.0
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 1,
+                "INSULT": 2,
+                "Perspective": 0.08
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "Perspective": 0.15
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "INSULT": 1,
+                "Perspective": 0.09
+            },
+            "neutral family": {
+                "Tot": 576,
+                "Perspective": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    },
+    "llama3:70b": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1951,
+                "1.0": 15,
+                "2.0": 200,
+                "3.0": 87,
+                "-1.0": 21,
+                "-2.0": 8,
+                "Avg": 0.28,
+                "St. Dev": 0.8,
+                "AFINN": 5.6
+            },
+            "queer": {
+                "0.0": 4364,
+                "2.0": 491,
+                "1.0": 79,
+                "4.0": 5,
+                "-1.0": 62,
+                "3.0": 156,
+                "-2.0": 37,
+                "Avg": 0.27,
+                "St. Dev": 0.8,
+                "AFINN": 5.44
+            },
+            "queer orientation": {
+                "2.0": 188,
+                "0.0": 1378,
+                "1.0": 52,
+                "4.0": 4,
+                "-1.0": 14,
+                "3.0": 43,
+                "-2.0": 21,
+                "Avg": 0.3,
+                "St. Dev": 0.84,
+                "AFINN": 6.08
+            },
+            "queer other": {
+                "0.0": 1035,
+                "2.0": 103,
+                "1.0": 12,
+                "-1.0": 27,
+                "4.0": 1,
+                "3.0": 26,
+                "-2.0": 8,
+                "Avg": 0.21,
+                "St. Dev": 0.75,
+                "AFINN": 4.24
+            },
+            "non-queer identity": {
+                "0.0": 687,
+                "2.0": 84,
+                "1.0": 13,
+                "3.0": 31,
+                "-3.0": 3,
+                "5.0": 2,
+                "-2.0": 6,
+                "-1.0": 10,
+                "Avg": 0.3,
+                "St. Dev": 0.89,
+                "AFINN": 6.05
+            },
+            "non-queer": {
+                "0.0": 1066,
+                "2.0": 181,
+                "1.0": 49,
+                "-1.0": 26,
+                "-2.0": 12,
+                "3.0": 38,
+                "-3.0": 4,
+                "5.0": 2,
+                "Avg": 0.34,
+                "St. Dev": 0.9,
+                "AFINN": 6.87
+            },
+            "non-queer other": {
+                "0.0": 127,
+                "2.0": 65,
+                "1.0": 19,
+                "-1.0": 8,
+                "-2.0": 3,
+                "3.0": 2,
+                "Avg": 0.63,
+                "St. Dev": 1.01,
+                "AFINN": 12.59
+            },
+            "non-queer orientation": {
+                "0.0": 252,
+                "2.0": 32,
+                "-1.0": 8,
+                "1.0": 17,
+                "-2.0": 3,
+                "3.0": 5,
+                "-3.0": 1,
+                "Avg": 0.25,
+                "St. Dev": 0.79,
+                "AFINN": 4.97
+            },
+            "neutral general": {
+                "0.0": 664,
+                "-3.0": 4,
+                "3.0": 35,
+                "4.0": 3,
+                "-2.0": 8,
+                "2.0": 153,
+                "1.0": 13,
+                "5.0": 1,
+                "-1.0": 11,
+                "Avg": 0.45,
+                "St. Dev": 1.01,
+                "AFINN": 9.01
+            },
+            "neutral": {
+                "0.0": 3233,
+                "2.0": 397,
+                "3.0": 119,
+                "-1.0": 40,
+                "-3.0": 16,
+                "1.0": 64,
+                "4.0": 4,
+                "-2.0": 45,
+                "5.0": 4,
+                "Avg": 0.27,
+                "St. Dev": 0.87,
+                "AFINN": 5.47
+            },
+            "neutral societal": {
+                "0.0": 1071,
+                "3.0": 48,
+                "-3.0": 5,
+                "1.0": 18,
+                "2.0": 130,
+                "5.0": 2,
+                "-2.0": 14,
+                "-1.0": 14,
+                "Avg": 0.29,
+                "St. Dev": 0.89,
+                "AFINN": 5.76
+            },
+            "neutral role": {
+                "0.0": 999,
+                "2.0": 69,
+                "-1.0": 12,
+                "1.0": 25,
+                "-3.0": 5,
+                "-2.0": 13,
+                "4.0": 1,
+                "3.0": 27,
+                "5.0": 1,
+                "Avg": 0.17,
+                "St. Dev": 0.76,
+                "AFINN": 3.47
+            },
+            "neutral family": {
+                "0.0": 499,
+                "1.0": 8,
+                "2.0": 45,
+                "-3.0": 2,
+                "3.0": 9,
+                "-2.0": 10,
+                "-1.0": 3,
+                "Avg": 0.17,
+                "St. Dev": 0.74,
+                "AFINN": 3.33
+            },
+            "pronoun binary": {
+                "0.0": 557,
+                "2.0": 115,
+                "1.0": 5,
+                "3.0": 33,
+                "4.0": 2,
+                "5.0": 1,
+                "-2.0": 15,
+                "-1.0": 2,
+                "-3.0": 2,
+                "Avg": 0.42,
+                "St. Dev": 1.03,
+                "AFINN": 8.44
+            },
+            "pronoun": {
+                "0.0": 1391,
+                "-1.0": 28,
+                "1.0": 26,
+                "2.0": 170,
+                "3.0": 49,
+                "4.0": 2,
+                "5.0": 1,
+                "-2.0": 20,
+                "-3.0": 9,
+                "Avg": 0.25,
+                "St. Dev": 0.87,
+                "AFINN": 5.08
+            },
+            "pronoun neutral": {
+                "0.0": 87,
+                "-1.0": 3,
+                "1.0": 2,
+                "2.0": 10,
+                "3.0": 3,
+                "-2.0": 1,
+                "Avg": 0.25,
+                "St. Dev": 0.81,
+                "AFINN": 4.91
+            },
+            "pronoun neo": {
+                "0.0": 747,
+                "-1.0": 23,
+                "1.0": 19,
+                "2.0": 45,
+                "3.0": 13,
+                "-2.0": 4,
+                "-3.0": 7,
+                "Avg": 0.11,
+                "St. Dev": 0.69,
+                "AFINN": 2.24
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "HurtLex": 0.0
+            },
+            "queer": {
+                "Tot": 5194,
+                "om": 20,
+                "qas": 1,
+                "cds": 21,
+                "an": 2,
+                "asm": 7,
+                "asf": 1,
+                "HurtLex": 1.0
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "om": 10,
+                "cds": 5,
+                "an": 1,
+                "asm": 7,
+                "asf": 1,
+                "HurtLex": 1.41
+            },
+            "queer other": {
+                "Tot": 1212,
+                "qas": 1,
+                "an": 1,
+                "cds": 16,
+                "om": 10,
+                "HurtLex": 2.31
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "is": 1,
+                "HurtLex": 0.12
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 3,
+                "an": 1,
+                "cds": 2,
+                "is": 2,
+                "HurtLex": 0.58
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "cds": 1,
+                "HurtLex": 0.45
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 3,
+                "an": 1,
+                "cds": 1,
+                "is": 1,
+                "HurtLex": 1.89
+            },
+            "neutral general": {
+                "Tot": 892,
+                "pa": 11,
+                "cds": 3,
+                "HurtLex": 1.57
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 20,
+                "pa": 11,
+                "asm": 2,
+                "an": 12,
+                "HurtLex": 1.15
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "cds": 3,
+                "an": 5,
+                "HurtLex": 0.61
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 14,
+                "asm": 2,
+                "an": 2,
+                "HurtLex": 1.56
+            },
+            "neutral family": {
+                "Tot": 576,
+                "an": 5,
+                "HurtLex": 0.87
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "HurtLex": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "an": 13,
+                "cds": 2,
+                "asm": 1,
+                "HurtLex": 0.94
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "asm": 1,
+                "HurtLex": 0.94
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "an": 13,
+                "cds": 2,
+                "HurtLex": 1.75
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 29,
+                "TOXICITY": 15,
+                "INSULT": 3,
+                "Perspective": 2.06
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 89,
+                "TOXICITY": 45,
+                "INSULT": 12,
+                "Perspective": 2.81
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 25,
+                "TOXICITY": 15,
+                "INSULT": 5,
+                "Perspective": 2.65
+            },
+            "queer other": {
+                "Tot": 1212,
+                "IDENTITY_ATTACK": 35,
+                "TOXICITY": 15,
+                "INSULT": 4,
+                "Perspective": 4.46
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "IDENTITY_ATTACK": 4,
+                "TOXICITY": 3,
+                "Perspective": 0.84
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "TOXICITY": 8,
+                "IDENTITY_ATTACK": 15,
+                "INSULT": 2,
+                "Perspective": 1.81
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 1,
+                "INSULT": 1,
+                "Perspective": 0.89
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "TOXICITY": 5,
+                "IDENTITY_ATTACK": 10,
+                "INSULT": 1,
+                "Perspective": 5.03
+            },
+            "neutral general": {
+                "Tot": 892,
+                "INSULT": 1,
+                "Perspective": 0.11
+            },
+            "neutral": {
+                "Tot": 3922,
+                "INSULT": 7,
+                "TOXICITY": 4,
+                "THREAT": 1,
+                "PROFANITY": 1,
+                "Perspective": 0.33
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "INSULT": 2,
+                "TOXICITY": 1,
+                "PROFANITY": 1,
+                "Perspective": 0.31
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "TOXICITY": 1,
+                "INSULT": 3,
+                "Perspective": 0.35
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 2,
+                "THREAT": 1,
+                "INSULT": 1,
+                "Perspective": 0.69
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    },
+    "gemma2": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1893,
+                "1.0": 107,
+                "2.0": 132,
+                "-1.0": 26,
+                "3.0": 96,
+                "-2.0": 28,
+                "Avg": 0.25,
+                "St. Dev": 0.81,
+                "AFINN": 5.06
+            },
+            "queer": {
+                "0.0": 4153,
+                "3.0": 304,
+                "1.0": 296,
+                "2.0": 310,
+                "4.0": 6,
+                "-1.0": 50,
+                "-3.0": 3,
+                "-2.0": 72,
+                "Avg": 0.32,
+                "St. Dev": 0.9,
+                "AFINN": 6.35
+            },
+            "queer orientation": {
+                "0.0": 1270,
+                "3.0": 152,
+                "1.0": 124,
+                "2.0": 110,
+                "-1.0": 18,
+                "-3.0": 3,
+                "-2.0": 23,
+                "Avg": 0.43,
+                "St. Dev": 1.02,
+                "AFINN": 8.55
+            },
+            "queer other": {
+                "0.0": 990,
+                "1.0": 65,
+                "2.0": 68,
+                "3.0": 56,
+                "4.0": 6,
+                "-1.0": 6,
+                "-2.0": 21,
+                "Avg": 0.28,
+                "St. Dev": 0.88,
+                "AFINN": 5.69
+            },
+            "non-queer identity": {
+                "0.0": 712,
+                "-1.0": 20,
+                "1.0": 14,
+                "2.0": 50,
+                "-2.0": 14,
+                "3.0": 25,
+                "4.0": 1,
+                "Avg": 0.17,
+                "St. Dev": 0.78,
+                "AFINN": 3.47
+            },
+            "non-queer": {
+                "0.0": 1111,
+                "-1.0": 30,
+                "1.0": 58,
+                "2.0": 88,
+                "3.0": 56,
+                "-2.0": 31,
+                "-3.0": 3,
+                "4.0": 1,
+                "Avg": 0.22,
+                "St. Dev": 0.87,
+                "AFINN": 4.43
+            },
+            "non-queer other": {
+                "0.0": 150,
+                "1.0": 22,
+                "2.0": 23,
+                "3.0": 12,
+                "-1.0": 8,
+                "-2.0": 9,
+                "Avg": 0.35,
+                "St. Dev": 1.03,
+                "AFINN": 6.96
+            },
+            "non-queer orientation": {
+                "0.0": 249,
+                "1.0": 22,
+                "3.0": 19,
+                "2.0": 15,
+                "-1.0": 2,
+                "-2.0": 8,
+                "-3.0": 3,
+                "Avg": 0.26,
+                "St. Dev": 0.96,
+                "AFINN": 5.16
+            },
+            "neutral general": {
+                "0.0": 685,
+                "1.0": 24,
+                "2.0": 96,
+                "3.0": 51,
+                "-1.0": 25,
+                "-3.0": 4,
+                "-2.0": 7,
+                "Avg": 0.36,
+                "St. Dev": 0.97,
+                "AFINN": 7.13
+            },
+            "neutral": {
+                "0.0": 3196,
+                "2.0": 359,
+                "3.0": 140,
+                "1.0": 76,
+                "4.0": 8,
+                "-1.0": 94,
+                "-3.0": 5,
+                "-2.0": 44,
+                "Avg": 0.27,
+                "St. Dev": 0.87,
+                "AFINN": 5.35
+            },
+            "neutral societal": {
+                "0.0": 1055,
+                "2.0": 129,
+                "3.0": 45,
+                "4.0": 2,
+                "1.0": 25,
+                "-1.0": 32,
+                "-3.0": 1,
+                "-2.0": 13,
+                "Avg": 0.28,
+                "St. Dev": 0.86,
+                "AFINN": 5.61
+            },
+            "neutral role": {
+                "0.0": 972,
+                "2.0": 83,
+                "4.0": 3,
+                "3.0": 32,
+                "-1.0": 26,
+                "1.0": 19,
+                "-2.0": 17,
+                "Avg": 0.2,
+                "St. Dev": 0.8,
+                "AFINN": 4.05
+            },
+            "neutral family": {
+                "0.0": 484,
+                "1.0": 8,
+                "2.0": 51,
+                "3.0": 12,
+                "-1.0": 11,
+                "4.0": 3,
+                "-2.0": 7,
+                "Avg": 0.23,
+                "St. Dev": 0.81,
+                "AFINN": 4.62
+            },
+            "pronoun binary": {
+                "0.0": 546,
+                "1.0": 26,
+                "2.0": 73,
+                "-1.0": 16,
+                "3.0": 53,
+                "4.0": 3,
+                "-2.0": 15,
+                "Avg": 0.41,
+                "St. Dev": 1.05,
+                "AFINN": 8.11
+            },
+            "pronoun": {
+                "0.0": 1356,
+                "1.0": 70,
+                "3.0": 88,
+                "2.0": 124,
+                "4.0": 6,
+                "-1.0": 34,
+                "-2.0": 18,
+                "Avg": 0.32,
+                "St. Dev": 0.91,
+                "AFINN": 6.32
+            },
+            "pronoun neutral": {
+                "0.0": 84,
+                "1.0": 4,
+                "2.0": 7,
+                "3.0": 6,
+                "-1.0": 3,
+                "4.0": 1,
+                "-2.0": 1,
+                "Avg": 0.33,
+                "St. Dev": 0.96,
+                "AFINN": 6.6
+            },
+            "pronoun neo": {
+                "0.0": 726,
+                "1.0": 40,
+                "3.0": 29,
+                "4.0": 2,
+                "2.0": 44,
+                "-1.0": 15,
+                "-2.0": 2,
+                "Avg": 0.24,
+                "St. Dev": 0.75,
+                "AFINN": 4.76
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "asm": 3,
+                "HurtLex": 0.13
+            },
+            "queer": {
+                "Tot": 5194,
+                "asm": 89,
+                "an": 1,
+                "cds": 18,
+                "om": 9,
+                "HurtLex": 2.25
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "asm": 80,
+                "cds": 8,
+                "om": 4,
+                "HurtLex": 5.41
+            },
+            "queer other": {
+                "Tot": 1212,
+                "an": 1,
+                "cds": 10,
+                "asm": 6,
+                "om": 5,
+                "HurtLex": 1.82
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "HurtLex": 0.0
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 9,
+                "asm": 11,
+                "cds": 4,
+                "HurtLex": 1.74
+            },
+            "non-queer other": {
+                "om": 6,
+                "Tot": 224,
+                "cds": 3,
+                "HurtLex": 4.02
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 3,
+                "asm": 11,
+                "cds": 1,
+                "HurtLex": 4.72
+            },
+            "neutral general": {
+                "Tot": 892,
+                "pa": 9,
+                "cds": 10,
+                "HurtLex": 2.13
+            },
+            "neutral": {
+                "Tot": 3922,
+                "pa": 11,
+                "cds": 31,
+                "HurtLex": 1.07
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "pa": 2,
+                "cds": 6,
+                "HurtLex": 0.61
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 15,
+                "HurtLex": 1.3
+            },
+            "neutral family": {
+                "Tot": 576,
+                "HurtLex": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "cds": 1,
+                "HurtLex": 0.14
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "cds": 1,
+                "an": 2,
+                "HurtLex": 0.18
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "HurtLex": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "an": 2,
+                "HurtLex": 0.23
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 18,
+                "TOXICITY": 15,
+                "INSULT": 3,
+                "Perspective": 1.58
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 55,
+                "TOXICITY": 41,
+                "INSULT": 17,
+                "PROFANITY": 1,
+                "Perspective": 2.19
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 24,
+                "TOXICITY": 17,
+                "INSULT": 12,
+                "PROFANITY": 1,
+                "Perspective": 3.18
+            },
+            "queer other": {
+                "Tot": 1212,
+                "IDENTITY_ATTACK": 13,
+                "TOXICITY": 9,
+                "INSULT": 2,
+                "Perspective": 1.98
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "IDENTITY_ATTACK": 4,
+                "TOXICITY": 5,
+                "INSULT": 3,
+                "Perspective": 1.44
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 29,
+                "TOXICITY": 20,
+                "INSULT": 9,
+                "Perspective": 4.21
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 7,
+                "TOXICITY": 3,
+                "Perspective": 4.46
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 18,
+                "TOXICITY": 12,
+                "INSULT": 6,
+                "Perspective": 11.32
+            },
+            "neutral general": {
+                "Tot": 892,
+                "Perspective": 0.0
+            },
+            "neutral": {
+                "Tot": 3922,
+                "Perspective": 0.0
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "Perspective": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "Perspective": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "Perspective": 0.0
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    },
+    "gemma2:27b": {
+        "AFINN": {
+            "queer identity": {
+                "0.0": 1909,
+                "1.0": 146,
+                "-2.0": 31,
+                "-1.0": 22,
+                "2.0": 122,
+                "3.0": 44,
+                "4.0": 8,
+                "Avg": 0.21,
+                "St. Dev": 0.73,
+                "AFINN": 4.12
+            },
+            "queer": {
+                "0.0": 4222,
+                "1.0": 324,
+                "2.0": 329,
+                "-2.0": 75,
+                "-1.0": 42,
+                "-3.0": 2,
+                "3.0": 175,
+                "4.0": 25,
+                "Avg": 0.27,
+                "St. Dev": 0.83,
+                "AFINN": 5.43
+            },
+            "queer orientation": {
+                "0.0": 1296,
+                "1.0": 124,
+                "2.0": 138,
+                "3.0": 99,
+                "4.0": 6,
+                "-3.0": 1,
+                "-1.0": 12,
+                "-2.0": 24,
+                "Avg": 0.39,
+                "St. Dev": 0.95,
+                "AFINN": 7.74
+            },
+            "queer other": {
+                "0.0": 1017,
+                "1.0": 54,
+                "-3.0": 1,
+                "2.0": 69,
+                "3.0": 32,
+                "-2.0": 20,
+                "-1.0": 8,
+                "4.0": 11,
+                "Avg": 0.23,
+                "St. Dev": 0.83,
+                "AFINN": 4.64
+            },
+            "non-queer identity": {
+                "0.0": 674,
+                "1.0": 32,
+                "2.0": 78,
+                "-1.0": 10,
+                "3.0": 30,
+                "-2.0": 10,
+                "-3.0": 1,
+                "4.0": 1,
+                "Avg": 0.3,
+                "St. Dev": 0.86,
+                "AFINN": 5.96
+            },
+            "non-queer": {
+                "0.0": 1044,
+                "1.0": 104,
+                "2.0": 140,
+                "-1.0": 13,
+                "3.0": 52,
+                "-2.0": 18,
+                "-3.0": 6,
+                "4.0": 1,
+                "Avg": 0.35,
+                "St. Dev": 0.9,
+                "AFINN": 6.92
+            },
+            "non-queer other": {
+                "1.0": 31,
+                "0.0": 141,
+                "2.0": 35,
+                "-1.0": 3,
+                "-2.0": 4,
+                "3.0": 8,
+                "-3.0": 2,
+                "Avg": 0.48,
+                "St. Dev": 1.01,
+                "AFINN": 9.64
+            },
+            "non-queer orientation": {
+                "0.0": 229,
+                "1.0": 41,
+                "2.0": 27,
+                "3.0": 14,
+                "-3.0": 3,
+                "-2.0": 4,
+                "Avg": 0.38,
+                "St. Dev": 0.93,
+                "AFINN": 7.55
+            },
+            "neutral general": {
+                "0.0": 698,
+                "1.0": 16,
+                "3.0": 32,
+                "2.0": 109,
+                "-1.0": 16,
+                "-3.0": 2,
+                "-2.0": 9,
+                "4.0": 10,
+                "Avg": 0.37,
+                "St. Dev": 0.98,
+                "AFINN": 7.4
+            },
+            "neutral": {
+                "0.0": 3213,
+                "2.0": 379,
+                "3.0": 119,
+                "-1.0": 54,
+                "1.0": 83,
+                "-2.0": 51,
+                "4.0": 19,
+                "-3.0": 4,
+                "Avg": 0.28,
+                "St. Dev": 0.87,
+                "AFINN": 5.64
+            },
+            "neutral societal": {
+                "0.0": 1038,
+                "2.0": 147,
+                "3.0": 40,
+                "1.0": 36,
+                "-2.0": 16,
+                "-1.0": 20,
+                "4.0": 5,
+                "Avg": 0.32,
+                "St. Dev": 0.88,
+                "AFINN": 6.42
+            },
+            "neutral role": {
+                "0.0": 994,
+                "2.0": 73,
+                "-1.0": 12,
+                "1.0": 19,
+                "3.0": 30,
+                "4.0": 4,
+                "-2.0": 19,
+                "-3.0": 1,
+                "Avg": 0.19,
+                "St. Dev": 0.78,
+                "AFINN": 3.78
+            },
+            "neutral family": {
+                "0.0": 483,
+                "3.0": 17,
+                "-1.0": 6,
+                "1.0": 12,
+                "2.0": 50,
+                "-2.0": 7,
+                "-3.0": 1,
+                "Avg": 0.24,
+                "St. Dev": 0.81,
+                "AFINN": 4.86
+            },
+            "pronoun binary": {
+                "0.0": 544,
+                "2.0": 74,
+                "1.0": 32,
+                "3.0": 43,
+                "4.0": 17,
+                "-2.0": 14,
+                "-1.0": 8,
+                "Avg": 0.47,
+                "St. Dev": 1.1,
+                "AFINN": 9.32
+            },
+            "pronoun": {
+                "0.0": 1371,
+                "2.0": 102,
+                "1.0": 81,
+                "-2.0": 17,
+                "4.0": 23,
+                "-1.0": 24,
+                "3.0": 78,
+                "Avg": 0.33,
+                "St. Dev": 0.93,
+                "AFINN": 6.52
+            },
+            "pronoun neutral": {
+                "0.0": 82,
+                "1.0": 7,
+                "2.0": 6,
+                "3.0": 5,
+                "-1.0": 3,
+                "4.0": 2,
+                "-2.0": 1,
+                "Avg": 0.35,
+                "St. Dev": 0.99,
+                "AFINN": 6.98
+            },
+            "pronoun neo": {
+                "0.0": 745,
+                "1.0": 42,
+                "-2.0": 2,
+                "2.0": 22,
+                "4.0": 4,
+                "-1.0": 13,
+                "3.0": 30,
+                "Avg": 0.2,
+                "St. Dev": 0.72,
+                "AFINN": 4.08
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "HurtLex": 0.0
+            },
+            "queer": {
+                "Tot": 5194,
+                "asm": 68,
+                "om": 33,
+                "cds": 5,
+                "HurtLex": 2.04
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "asm": 58,
+                "om": 15,
+                "cds": 4,
+                "HurtLex": 4.53
+            },
+            "queer other": {
+                "Tot": 1212,
+                "asm": 10,
+                "om": 18,
+                "cds": 1,
+                "HurtLex": 2.39
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "qas": 1,
+                "asf": 1,
+                "cds": 1,
+                "HurtLex": 0.36
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 4,
+                "asm": 5,
+                "an": 1,
+                "qas": 2,
+                "asf": 1,
+                "cds": 1,
+                "HurtLex": 1.02
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "om": 1,
+                "HurtLex": 0.45
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 3,
+                "asm": 5,
+                "an": 1,
+                "qas": 1,
+                "HurtLex": 3.14
+            },
+            "neutral general": {
+                "Tot": 892,
+                "cds": 4,
+                "pa": 4,
+                "HurtLex": 0.9
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 22,
+                "pa": 5,
+                "an": 3,
+                "HurtLex": 0.76
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "pa": 1,
+                "cds": 4,
+                "an": 1,
+                "HurtLex": 0.46
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 10,
+                "an": 1,
+                "HurtLex": 0.95
+            },
+            "neutral family": {
+                "Tot": 576,
+                "cds": 4,
+                "an": 1,
+                "HurtLex": 0.87
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "asm": 1,
+                "HurtLex": 0.14
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "an": 13,
+                "asm": 1,
+                "cds": 3,
+                "HurtLex": 1.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "an": 1,
+                "HurtLex": 0.94
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "an": 12,
+                "cds": 3,
+                "HurtLex": 1.75
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "TOXICITY": 21,
+                "IDENTITY_ATTACK": 24,
+                "INSULT": 3,
+                "Perspective": 2.1
+            },
+            "queer": {
+                "Tot": 5194,
+                "TOXICITY": 56,
+                "INSULT": 19,
+                "IDENTITY_ATTACK": 73,
+                "Perspective": 2.85
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 21,
+                "TOXICITY": 17,
+                "INSULT": 9,
+                "Perspective": 2.76
+            },
+            "queer other": {
+                "Tot": 1212,
+                "TOXICITY": 18,
+                "INSULT": 7,
+                "IDENTITY_ATTACK": 28,
+                "Perspective": 4.37
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "IDENTITY_ATTACK": 4,
+                "TOXICITY": 3,
+                "INSULT": 1,
+                "Perspective": 0.96
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 16,
+                "TOXICITY": 11,
+                "INSULT": 2,
+                "Perspective": 2.1
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "IDENTITY_ATTACK": 4,
+                "TOXICITY": 3,
+                "INSULT": 1,
+                "Perspective": 3.57
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 8,
+                "TOXICITY": 5,
+                "Perspective": 4.09
+            },
+            "neutral general": {
+                "Tot": 892,
+                "TOXICITY": 2,
+                "INSULT": 2,
+                "Perspective": 0.45
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 3,
+                "INSULT": 3,
+                "Perspective": 0.15
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "Perspective": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "Perspective": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "Perspective": 0.35
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    },
+    "gpt-4o-mini": {
+        "AFINN": {
+            "queer identity": {
+                "2.0": 111,
+                "0.0": 1930,
+                "1.0": 167,
+                "3.0": 47,
+                "-2.0": 22,
+                "-1.0": 5,
+                "Avg": 0.21,
+                "St. Dev": 0.67,
+                "AFINN": 4.22
+            },
+            "queer": {
+                "2.0": 304,
+                "0.0": 4273,
+                "-2.0": 75,
+                "1.0": 356,
+                "3.0": 168,
+                "4.0": 8,
+                "-1.0": 9,
+                "-3.0": 1,
+                "Avg": 0.26,
+                "St. Dev": 0.78,
+                "AFINN": 5.15
+            },
+            "queer orientation": {
+                "2.0": 126,
+                "0.0": 1330,
+                "1.0": 124,
+                "3.0": 86,
+                "-2.0": 31,
+                "-1.0": 2,
+                "4.0": 1,
+                "Avg": 0.34,
+                "St. Dev": 0.89,
+                "AFINN": 6.75
+            },
+            "queer other": {
+                "0.0": 1013,
+                "2.0": 67,
+                "-2.0": 22,
+                "1.0": 65,
+                "4.0": 7,
+                "3.0": 35,
+                "-1.0": 2,
+                "-3.0": 1,
+                "Avg": 0.23,
+                "St. Dev": 0.81,
+                "AFINN": 4.67
+            },
+            "non-queer identity": {
+                "0.0": 652,
+                "2.0": 90,
+                "-2.0": 15,
+                "1.0": 40,
+                "3.0": 27,
+                "-3.0": 9,
+                "-1.0": 3,
+                "Avg": 0.29,
+                "St. Dev": 0.93,
+                "AFINN": 5.77
+            },
+            "non-queer": {
+                "0.0": 1057,
+                "2.0": 154,
+                "-2.0": 20,
+                "1.0": 80,
+                "3.0": 45,
+                "-1.0": 5,
+                "-3.0": 17,
+                "Avg": 0.31,
+                "St. Dev": 0.94,
+                "AFINN": 6.2
+            },
+            "non-queer other": {
+                "0.0": 152,
+                "2.0": 33,
+                "1.0": 26,
+                "-1.0": 2,
+                "-3.0": 3,
+                "3.0": 6,
+                "-2.0": 2,
+                "Avg": 0.42,
+                "St. Dev": 0.97,
+                "AFINN": 8.48
+            },
+            "non-queer orientation": {
+                "0.0": 253,
+                "1.0": 14,
+                "2.0": 31,
+                "3.0": 12,
+                "-3.0": 5,
+                "-2.0": 3,
+                "Avg": 0.29,
+                "St. Dev": 0.93,
+                "AFINN": 5.72
+            },
+            "neutral general": {
+                "2.0": 147,
+                "4.0": 3,
+                "0.0": 652,
+                "1.0": 27,
+                "3.0": 36,
+                "-3.0": 5,
+                "-2.0": 9,
+                "-1.0": 8,
+                "5.0": 5,
+                "Avg": 0.48,
+                "St. Dev": 1.06,
+                "AFINN": 9.53
+            },
+            "neutral": {
+                "2.0": 475,
+                "4.0": 8,
+                "0.0": 3030,
+                "3.0": 152,
+                "1.0": 175,
+                "-2.0": 53,
+                "-3.0": 12,
+                "-1.0": 9,
+                "5.0": 8,
+                "Avg": 0.38,
+                "St. Dev": 0.95,
+                "AFINN": 7.66
+            },
+            "neutral societal": {
+                "0.0": 993,
+                "2.0": 161,
+                "3.0": 54,
+                "1.0": 70,
+                "4.0": 2,
+                "-3.0": 5,
+                "-2.0": 14,
+                "5.0": 3,
+                "Avg": 0.41,
+                "St. Dev": 0.96,
+                "AFINN": 8.2
+            },
+            "neutral role": {
+                "2.0": 104,
+                "0.0": 936,
+                "4.0": 3,
+                "3.0": 41,
+                "1.0": 45,
+                "-2.0": 21,
+                "-1.0": 1,
+                "-3.0": 1,
+                "Avg": 0.3,
+                "St. Dev": 0.87,
+                "AFINN": 5.94
+            },
+            "neutral family": {
+                "0.0": 449,
+                "1.0": 33,
+                "2.0": 63,
+                "3.0": 21,
+                "-2.0": 9,
+                "-3.0": 1,
+                "Avg": 0.35,
+                "St. Dev": 0.88,
+                "AFINN": 6.98
+            },
+            "pronoun binary": {
+                "0.0": 493,
+                "2.0": 109,
+                "1.0": 50,
+                "3.0": 57,
+                "-3.0": 4,
+                "4.0": 4,
+                "5.0": 1,
+                "-2.0": 13,
+                "-1.0": 1,
+                "Avg": 0.58,
+                "St. Dev": 1.13,
+                "AFINN": 11.5
+            },
+            "pronoun": {
+                "0.0": 1186,
+                "2.0": 194,
+                "1.0": 188,
+                "3.0": 90,
+                "4.0": 9,
+                "-3.0": 6,
+                "5.0": 1,
+                "-2.0": 17,
+                "-1.0": 5,
+                "Avg": 0.49,
+                "St. Dev": 0.99,
+                "AFINN": 9.79
+            },
+            "pronoun neutral": {
+                "0.0": 72,
+                "1.0": 16,
+                "2.0": 11,
+                "3.0": 5,
+                "-3.0": 1,
+                "-2.0": 1,
+                "Avg": 0.45,
+                "St. Dev": 0.96,
+                "AFINN": 9.06
+            },
+            "pronoun neo": {
+                "2.0": 74,
+                "0.0": 621,
+                "1.0": 122,
+                "4.0": 5,
+                "3.0": 28,
+                "-3.0": 1,
+                "-1.0": 4,
+                "-2.0": 3,
+                "Avg": 0.42,
+                "St. Dev": 0.85,
+                "AFINN": 8.41
+            }
+        },
+        "HurtLex": {
+            "queer identity": {
+                "Tot": 2282,
+                "om": 8,
+                "HurtLex": 0.35
+            },
+            "queer": {
+                "Tot": 5194,
+                "qas": 2,
+                "asm": 46,
+                "an": 2,
+                "cds": 16,
+                "om": 27,
+                "HurtLex": 1.79
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "asm": 46,
+                "an": 2,
+                "cds": 8,
+                "om": 13,
+                "HurtLex": 4.06
+            },
+            "queer other": {
+                "Tot": 1212,
+                "qas": 2,
+                "cds": 8,
+                "om": 6,
+                "HurtLex": 1.32
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "qas": 1,
+                "cds": 1,
+                "HurtLex": 0.24
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "om": 10,
+                "asm": 6,
+                "an": 1,
+                "qas": 1,
+                "cds": 1,
+                "HurtLex": 1.38
+            },
+            "non-queer other": {
+                "om": 4,
+                "Tot": 224,
+                "HurtLex": 1.79
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "om": 6,
+                "asm": 6,
+                "an": 1,
+                "HurtLex": 4.09
+            },
+            "neutral general": {
+                "Tot": 892,
+                "cds": 11,
+                "pa": 2,
+                "qas": 1,
+                "HurtLex": 1.57
+            },
+            "neutral": {
+                "Tot": 3922,
+                "cds": 22,
+                "pa": 2,
+                "qas": 1,
+                "asm": 1,
+                "HurtLex": 0.66
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "asm": 1,
+                "cds": 2,
+                "HurtLex": 0.23
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "cds": 8,
+                "HurtLex": 0.69
+            },
+            "neutral family": {
+                "Tot": 576,
+                "cds": 1,
+                "HurtLex": 0.17
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "asm": 3,
+                "cds": 1,
+                "HurtLex": 0.55
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "asm": 3,
+                "cds": 2,
+                "HurtLex": 0.29
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "cds": 1,
+                "HurtLex": 0.94
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "HurtLex": 0.0
+            }
+        },
+        "Perspective": {
+            "queer identity": {
+                "Tot": 2282,
+                "IDENTITY_ATTACK": 12,
+                "TOXICITY": 9,
+                "INSULT": 2,
+                "Perspective": 1.01
+            },
+            "queer": {
+                "Tot": 5194,
+                "IDENTITY_ATTACK": 36,
+                "TOXICITY": 20,
+                "INSULT": 5,
+                "Perspective": 1.17
+            },
+            "queer orientation": {
+                "Tot": 1700,
+                "IDENTITY_ATTACK": 14,
+                "TOXICITY": 5,
+                "INSULT": 2,
+                "Perspective": 1.24
+            },
+            "queer other": {
+                "Tot": 1212,
+                "IDENTITY_ATTACK": 10,
+                "TOXICITY": 6,
+                "INSULT": 1,
+                "Perspective": 1.4
+            },
+            "non-queer identity": {
+                "Tot": 836,
+                "TOXICITY": 3,
+                "INSULT": 2,
+                "IDENTITY_ATTACK": 4,
+                "Perspective": 1.08
+            },
+            "non-queer": {
+                "Tot": 1378,
+                "IDENTITY_ATTACK": 17,
+                "TOXICITY": 12,
+                "INSULT": 3,
+                "Perspective": 2.32
+            },
+            "non-queer other": {
+                "Tot": 224,
+                "TOXICITY": 2,
+                "IDENTITY_ATTACK": 2,
+                "Perspective": 1.79
+            },
+            "non-queer orientation": {
+                "Tot": 318,
+                "IDENTITY_ATTACK": 11,
+                "TOXICITY": 7,
+                "INSULT": 1,
+                "Perspective": 5.97
+            },
+            "neutral general": {
+                "Tot": 892,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "Perspective": 0.22
+            },
+            "neutral": {
+                "Tot": 3922,
+                "TOXICITY": 2,
+                "INSULT": 2,
+                "Perspective": 0.1
+            },
+            "neutral societal": {
+                "Tot": 1302,
+                "Perspective": 0.0
+            },
+            "neutral role": {
+                "Tot": 1152,
+                "Perspective": 0.0
+            },
+            "neutral family": {
+                "Tot": 576,
+                "TOXICITY": 1,
+                "INSULT": 1,
+                "Perspective": 0.35
+            },
+            "pronoun binary": {
+                "Tot": 732,
+                "Perspective": 0.0
+            },
+            "pronoun": {
+                "Tot": 1696,
+                "Perspective": 0.0
+            },
+            "pronoun neutral": {
+                "Tot": 106,
+                "Perspective": 0.0
+            },
+            "pronoun neo": {
+                "Tot": 858,
+                "Perspective": 0.0
+            }
+        }
+    }
+}
