@@ -2,10 +2,10 @@ from lib.constants import *
 from lib.utils import *
 import lib.API as API 
 from afinn import Afinn
-# from googleapiclient import discovery
-# logging.getLogger("googleapiclient.discovery").setLevel(logging.WARNING)
-# logging.getLogger("googleapiclient").setLevel(logging.WARNING)
-# logging.getLogger('googleapicliet.discovery_cache').setLevel(logging.ERROR)
+from googleapiclient import discovery
+logging.getLogger("googleapiclient.discovery").setLevel(logging.WARNING)
+logging.getLogger("googleapiclient").setLevel(logging.WARNING)
+logging.getLogger('googleapicliet.discovery_cache').setLevel(logging.ERROR)
 
 def strip_accent(accented_string):
     return lib.unidecode.unidecode(str(accented_string))
@@ -71,7 +71,6 @@ def getPerspectiveScore(perspectiveSetup, predictedWords, sentence):
                         'PROFANITY': {},
                         'THREAT': {}}
                 }).execute()
-                
                 waitingTime = waitingTime +1
                 for cat in PERSPECTIVE_CATEGORIES:
                     if response['attributeScores'][cat]['summaryScore']['value'] > 0.5:
@@ -80,6 +79,8 @@ def getPerspectiveScore(perspectiveSetup, predictedWords, sentence):
             except Exception as X:
                 print("EXC - getPerspectiveScore: "+str(X))
                 #time.sleep(0.7)
+                if X.error_details[0]["errorType"] == 'LANGUAGE_NOT_SUPPORTED_BY_ATTRIBUTE':
+                    break
                 waitingTime, timeError = 0, timeError +1
                 perspectiveArray = {}
     return perspectiveArray

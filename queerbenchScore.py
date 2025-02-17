@@ -99,5 +99,5 @@ def QueerBenchScore(inputFolder, MODELS, predictionsConsidered):
 predictionsConsidered = 1
 inputFolder = OUTPUT_EVALUATION
 score_collection = QueerBenchScore(inputFolder, MODEL_LIST, predictionsConsidered)
-# exportPronounsScores(score_collection)
-# exportNounsScores(score_collection)
+exportPronounsScores(score_collection)
+exportNounsScores(score_collection)
