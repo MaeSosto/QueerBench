@@ -1,4 +1,4 @@
-,BERT_base,BERT_large,RoBERTa_base,RoBERTa_large,AlBERT_base,AlBERT_large,BERTweet_base,BERTweet_large,llama3,llama3:70b,gemma2,gemma2:27b,gpt-4o,gpt-4o-mini
+index,BERT_base,BERT_large,RoBERTa_base,RoBERTa_large,AlBERT_base,AlBERT_large,BERTweet_base,BERTweet_large,llama3,llama3:70b,gemma2,gemma2:27b,gpt-4o,gpt-4o-mini
 AFINN binary,8.06,7.3,9.84,9.73,5.41,7.38,0.0,0.0,7.1,8.44,8.11,9.32,7.83,11.5
 HurtLex binary,0.41,1.23,0.41,0.27,2.32,0.82,0.0,0.0,1.64,0.0,0.14,0.14,0.0,0.55
 Perspective binary,0.55,2.46,0.55,0.27,1.09,1.37,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

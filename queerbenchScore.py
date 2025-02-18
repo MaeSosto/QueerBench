@@ -60,7 +60,7 @@ def exportPronounsScores(score_collection):
             pronouns_collection[model][QUEERBENCH + " "+ cat] = round(np.average(queerBench_score), 2)
     pronouns_collection = json.loads(json.dumps(pronouns_collection))
     df = pd.DataFrame.from_dict(pronouns_collection)    
-    df.to_csv(OUTPUT_QUEERBENCH+ "pronouns.csv")
+    df.to_csv(OUTPUT_QUEERBENCH+ PRONOUN+".csv")
     print("○ Pronouns table exported!")
 
 def exportNounsScores(score_collection):
@@ -74,7 +74,7 @@ def exportNounsScores(score_collection):
             nouns_collection[model][QUEERBENCH + " "+ cat] = round(np.average(queerBench_score), 2)
     nouns_collection = json.loads(json.dumps(nouns_collection))
     df = pd.DataFrame.from_dict(nouns_collection)    
-    df.to_csv(OUTPUT_QUEERBENCH+ "nouns.csv")
+    df.to_csv(OUTPUT_QUEERBENCH+ NOUN+".csv")
     print("○ Nouns table exported!")
 
 def QueerBenchScore(inputFolder, MODELS, predictionsConsidered):

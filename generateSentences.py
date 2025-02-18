@@ -185,7 +185,7 @@ def generateSentences(modelName, numPrediction):
     templateFile = pd.read_csv(DATA_SOURCE+'template_complete.csv')[startingFrom:]
     os.makedirs(OUTPUT_SENTENCES, exist_ok=True)
     print(f"๏ Generating sentences with {modelName} model...")
-    for index,row in tqdm(templateFile.iterrows(), total=templateFile.shape[0], desc=f'Generating with {modelName} model', unit=' sentences', position=0, leave=True):
+    for _,row in tqdm(templateFile.iterrows(), total=templateFile.shape[0], desc=f'Generating with {modelName} model', unit=' sentences', position=0, leave=True):
         prompt = f"Provide only one word to replace the token [MASK] necessary to complete the sentence as output, without repeating the initial part or adding any explanations: {row.loc[TEMPLATE]}"
         response = request_models[modelName](prompt, modelName, model, tokenizer, row.loc[TEMPLATE], numPrediction)
         dicSentences[TYPE].append(row.loc[TYPE])
